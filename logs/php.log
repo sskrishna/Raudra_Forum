@@ -1,0 +1,246 @@
+apache2handler Array
+(
+    [HTTP_HOST] => localhost
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_REFERER] => http://localhost/index.php/userinfo/2/srinu
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
+    [HTTP_COOKIE] => tzn=Asia%2FKolkata; PHPSESSID=2h0d3r43dqtof62im5cpuec7f1
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.7 (Ubuntu)
+    [SERVER_NAME] => localhost
+    [SERVER_ADDR] => 127.0.0.1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 127.0.0.1
+    [DOCUMENT_ROOT] => /var/www/lampcms/www
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/lampcms/www
+    [SERVER_ADMIN] => webmaster@localhost
+    [SCRIPT_FILENAME] => /var/www/lampcms/www/index.php
+    [REMOTE_PORT] => 52786
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /index.php/
+    [SCRIPT_NAME] => /index.php
+    [PATH_INFO] => /
+    [PATH_TRANSLATED] => /var/www/lampcms/www/index.php
+    [PHP_SELF] => /index.php/
+    [REQUEST_TIME_FLOAT] => 1472744867.916
+    [REQUEST_TIME] => 1472744867
+)
+
+DEBUG September 1, 2016 21:17:47 Lampcms\Event\Observer->__construct() 
+/var/www/lampcms/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\LoginHistory
+DEBUG September 1, 2016 21:17:47 Lampcms\Event\Observer->__construct() 
+/var/www/lampcms/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\Online
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->__construct() 
+/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 138
+starting Cache
+DEBUG September 1, 2016 21:17:47 Lampcms\Event\Observer->__construct() 
+/var/www/lampcms/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Cache\Cache
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->__construct() 
+/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 143
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->__construct() 
+/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 145
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo::factory() 
+/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 110
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->__get() 
+/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 385
+looking for tr_en_US
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->get() 
+/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 188
+$key: tr_en_US
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->get() 
+/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 196
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->getFromCache() 
+/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 443
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->get() 
+/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 413
+looking for key: tr_en_US
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->get() 
+/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 414
+in collection: C_Cache in DB: LAMPCMS
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->get() 
+/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 423
+found result in cache
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->getData() 
+/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 529
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->initParams() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 430
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->setTemplateDir() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 1124
+setting template dir
+DEBUG September 1, 2016 21:17:47 Lampcms\Base->isLoggedIn() 
+/var/www/lampcms/lib/Lampcms/Base.php  line: 367
+bLoggedIn not set
+DEBUG September 1, 2016 21:17:47 Lampcms\Mongo\DB->getCollection() 
+/var/www/lampcms/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: USERS
+DEBUG September 1, 2016 21:17:47 Lampcms\User->getUid() 
+/var/www/lampcms/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG September 1, 2016 21:17:47 Lampcms\User->isGuest() 
+/var/www/lampcms/lib/Lampcms/User.php  line: 212
+uid: 2
+DEBUG September 1, 2016 21:17:47 Lampcms\Base->isLoggedIn() 
+/var/www/lampcms/lib/Lampcms/Base.php  line: 369
+bLoggedIn now: 1
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->loginByFacebookCookie() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 637
+skipping loginByFacebookCookie
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->loginBySid() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 584
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\User->getUid() 
+/var/www/lampcms/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->addJoinForm() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 1089
+dnd: 
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->addLangForm() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 1141
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->__construct() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 280
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\Base->checkAccessPermission() 
+/var/www/lampcms/lib/Lampcms/Base.php  line: 222
+$privilege is null
+DEBUG September 1, 2016 21:17:47 Lampcms\Base->checkAccessPermission() 
+/var/www/lampcms/lib/Lampcms/Base.php  line: 226
+$this->permission not set
+DEBUG September 1, 2016 21:17:47 Lampcms\Mongo\DB->getCollection() 
+/var/www/lampcms/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: QUESTIONS
+DEBUG September 1, 2016 21:17:47 Lampcms\Controllers\Viewquestions->getCursor() 
+/var/www/lampcms/lib/Lampcms/Controllers/Viewquestions.php  line: 174
+cond: recent
+DEBUG September 1, 2016 21:17:47 Lampcms\Controllers\Viewquestions->getCursor() 
+/var/www/lampcms/lib/Lampcms/Controllers/Viewquestions.php  line: 264
+$this->Cursor: object
+DEBUG September 1, 2016 21:17:47 Lampcms\Controllers\Viewquestions->paginate() 
+/var/www/lampcms/lib/Lampcms/Controllers/Viewquestions.php  line: 279
+paginating with $this->pagerPath: {_viewquestions_}
+DEBUG September 1, 2016 21:17:47 Lampcms\Paginator->paginate() 
+/var/www/lampcms/lib/Lampcms/Paginator.php  line: 128
+got mongo cursor
+DEBUG September 1, 2016 21:17:47 Lampcms\Paginator->paginate() 
+/var/www/lampcms/lib/Lampcms/Paginator.php  line: 131
+totalItems: 3
+DEBUG September 1, 2016 21:17:47 Lampcms\Paginator->paginate() 
+/var/www/lampcms/lib/Lampcms/Paginator.php  line: 147
+curPage: 1
+DEBUG September 1, 2016 21:17:47 Lampcms\Paginator->paginate() 
+/var/www/lampcms/lib/Lampcms/Paginator.php  line: 149
+skip: 0
+DEBUG September 1, 2016 21:17:47 Pear\Pager\Common->getPageData() 
+/var/www/lampcms/lib/Pear/Pager/Common.php  line: 574
+$pageID: 1
+DEBUG September 1, 2016 21:17:47 Lampcms\User->getUid() 
+/var/www/lampcms/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG September 1, 2016 21:17:47 Lampcms\Controllers\Viewquestions->makeQlistBody() 
+/var/www/lampcms/lib/Lampcms/Controllers/Viewquestions.php  line: 404
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\Controllers\Viewquestions->makeFollowedTags() 
+/var/www/lampcms/lib/Lampcms/Controllers/Viewquestions.php  line: 439
+$aFollowed: []
+DEBUG September 1, 2016 21:17:47 Lampcms\Controllers\Viewquestions->makeRecentTags() 
+/var/www/lampcms/lib/Lampcms/Controllers/Viewquestions.php  line: 311
+$aUserTags: []
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->get() 
+/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 188
+$key: qrecent
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->get() 
+/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 196
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->getFromCache() 
+/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 443
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->get() 
+/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 413
+looking for key: qrecent
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->get() 
+/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 414
+in collection: C_Cache in DB: LAMPCMS
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->get() 
+/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 423
+found result in cache
+DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->getData() 
+/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 529
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->__construct() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 295
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\Event\Dispatcher->_notify() 
+/var/www/lampcms/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: onPageView
+DEBUG September 1, 2016 21:17:47 Lampcms\Event\Dispatcher->_notify() 
+/var/www/lampcms/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: EVENT_DISPATCHER_GLOBAL
+DEBUG September 1, 2016 21:17:47 Lampcms\Modules\Observers\LoginHistory->main() 
+/var/www/lampcms/lib/Lampcms/Modules/Observers/LoginHistory.php  line: 77
+get event: onPageView
+DEBUG September 1, 2016 21:17:47 Lampcms\User->getUid() 
+/var/www/lampcms/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG September 1, 2016 21:17:47 Lampcms\Modules\Observers\Online->run() 
+/var/www/lampcms/lib/Lampcms/Modules/Observers/Online.php  line: 131
+uid: 2
+DEBUG September 1, 2016 21:17:47 Lampcms\User->getUid() 
+/var/www/lampcms/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->getResult() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 744
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\User->getUid() 
+/var/www/lampcms/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG September 1, 2016 21:17:47 Lampcms\User->isGuest() 
+/var/www/lampcms/lib/Lampcms/User.php  line: 212
+uid: 2
+DEBUG September 1, 2016 21:17:47 Lampcms\LoginForm::forMember() 
+/var/www/lampcms/lib/Lampcms/LoginForm.php  line: 86
+Welcome menu already existed! 
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->getResult() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 746
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->getResult() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 748
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->addExtraCss() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 807
+Got extra css to add
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->getResult() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 750
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->getResult() 
+/var/www/lampcms/lib/Lampcms/WebPage.php  line: 752
+cp
+DEBUG September 1, 2016 21:17:47 Lampcms\Geo\Ip->getLocation() 
+/var/www/lampcms/lib/Lampcms/Geo/Ip.php  line: 84
+ip not public
+DEBUG September 1, 2016 21:17:47 Lampcms\User->setLastActive() 
+/var/www/lampcms/lib/Lampcms/User.php  line: 937
+$lastActive was: 1472744770
+DEBUG September 1, 2016 21:17:47 Lampcms\Mongo\Doc->saveIfChanged() 
+/var/www/lampcms/lib/Lampcms/Mongo/Doc.php  line: 699
+No changes to original array, update is not necessary
