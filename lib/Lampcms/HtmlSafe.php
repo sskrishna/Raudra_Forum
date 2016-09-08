@@ -321,12 +321,9 @@ class HtmlSafe
                         }
                     }
                 }
-                $tempval = preg_replace('/&#(\d+);?/me', "chr('\\1')", $value); //"'
-                $tempval = preg_replace(
-                    '/&#x([0-9a-f]+);?/mei',
-                    "chr(hexdec('\\1'))",
-                    $tempval
-                );
+                #$tempval = preg_replace('/&#(\d+);?/me', "chr('\\1')", $value); //"'
+                #$tempval = preg_replace('/&#x([0-9a-f]+);?/mei', "chr(hexdec('\\1'))",$tempval);
+                $tempval = $value;
                 if ((in_array($name, $this->protocolAttributes))
                     && (strpos($tempval, ':') !== false)
                 ) {

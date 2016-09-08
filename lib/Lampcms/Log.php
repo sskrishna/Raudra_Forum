@@ -376,7 +376,8 @@ class Log
      */
     protected static function getTimeStamp()
     {
-        return date(self::TIME_FORMAT) . ' ';
+        #return date(self::TIME_FORMAT) . ' ';
+        return date_default_timezone_set(self::TIME_FORMAT) . ' ';
     }
 
 

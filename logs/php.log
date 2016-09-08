@@ -1,246 +1,1242 @@
 apache2handler Array
 (
-    [HTTP_HOST] => localhost
+    [HTTP_HOST] => ec2-52-66-105-131.ap-south-1.compute.amazonaws.com
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.5
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_REFERER] => http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/index.php/viewquestion/quest6/jkadsjfhashdj-fas-ai-s-jdi-jaiod-jf-asojid-ioas-k-uj
+    [HTTP_COOKIE] => PHPSESSID=3q5mu94cb2iq5o3ta621hqn206; tzn=Asia%2FKolkata
     [HTTP_CONNECTION] => keep-alive
     [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
-    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
-    [HTTP_REFERER] => http://localhost/index.php/userinfo/2/srinu
-    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
-    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.8
-    [HTTP_COOKIE] => tzn=Asia%2FKolkata; PHPSESSID=2h0d3r43dqtof62im5cpuec7f1
-    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-    [SERVER_SIGNATURE] => <address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
-
-    [SERVER_SOFTWARE] => Apache/2.4.7 (Ubuntu)
-    [SERVER_NAME] => localhost
-    [SERVER_ADDR] => 127.0.0.1
+    [CONTENT_TYPE] => multipart/form-data; boundary=---------------------------78109397844617587320899496
+    [CONTENT_LENGTH] => 740414
+    [PATH] => /sbin:/usr/sbin:/bin:/usr/bin
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.23 (Amazon) PHP/5.6.25
+    [SERVER_NAME] => ec2-52-66-105-131.ap-south-1.compute.amazonaws.com
+    [SERVER_ADDR] => 172.31.0.76
     [SERVER_PORT] => 80
-    [REMOTE_ADDR] => 127.0.0.1
-    [DOCUMENT_ROOT] => /var/www/lampcms/www
+    [REMOTE_ADDR] => 183.82.118.3
+    [DOCUMENT_ROOT] => /var/www/html/Raudra_Forum/www
     [REQUEST_SCHEME] => http
     [CONTEXT_PREFIX] => 
-    [CONTEXT_DOCUMENT_ROOT] => /var/www/lampcms/www
-    [SERVER_ADMIN] => webmaster@localhost
-    [SCRIPT_FILENAME] => /var/www/lampcms/www/index.php
-    [REMOTE_PORT] => 52786
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/html/Raudra_Forum/www
+    [SERVER_ADMIN] => root@localhost
+    [SCRIPT_FILENAME] => /var/www/html/Raudra_Forum/www/index.php
+    [REMOTE_PORT] => 59160
     [GATEWAY_INTERFACE] => CGI/1.1
     [SERVER_PROTOCOL] => HTTP/1.1
-    [REQUEST_METHOD] => GET
+    [REQUEST_METHOD] => POST
     [QUERY_STRING] => 
-    [REQUEST_URI] => /index.php/
+    [REQUEST_URI] => /index.php
     [SCRIPT_NAME] => /index.php
-    [PATH_INFO] => /
-    [PATH_TRANSLATED] => /var/www/lampcms/www/index.php
-    [PHP_SELF] => /index.php/
-    [REQUEST_TIME_FLOAT] => 1472744867.916
-    [REQUEST_TIME] => 1472744867
+    [PHP_SELF] => /index.php
+    [REQUEST_TIME_FLOAT] => 1473347736.75
+    [REQUEST_TIME] => 1473347736
 )
 
-DEBUG September 1, 2016 21:17:47 Lampcms\Event\Observer->__construct() 
-/var/www/lampcms/lib/Lampcms/Event/Observer.php  line: 79
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
 observer: Lampcms\Modules\Observers\LoginHistory
-DEBUG September 1, 2016 21:17:47 Lampcms\Event\Observer->__construct() 
-/var/www/lampcms/lib/Lampcms/Event/Observer.php  line: 79
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
 observer: Lampcms\Modules\Observers\Online
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->__construct() 
-/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 138
+DEBUG  Lampcms\Cache\Cache->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 138
 starting Cache
-DEBUG September 1, 2016 21:17:47 Lampcms\Event\Observer->__construct() 
-/var/www/lampcms/lib/Lampcms/Event/Observer.php  line: 79
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
 observer: Lampcms\Cache\Cache
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->__construct() 
-/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 143
+DEBUG  Lampcms\Cache\Cache->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 143
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->__construct() 
-/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 145
+DEBUG  Lampcms\Cache\Cache->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 145
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo::factory() 
-/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 110
+DEBUG  Lampcms\Cache\Mongo::factory() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 110
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->__get() 
-/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 385
+DEBUG  Lampcms\Cache\Cache->__get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 385
 looking for tr_en_US
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->get() 
-/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 188
+DEBUG  Lampcms\Cache\Cache->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 188
 $key: tr_en_US
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->get() 
-/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 196
+DEBUG  Lampcms\Cache\Cache->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 196
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->getFromCache() 
-/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 443
+DEBUG  Lampcms\Cache\Cache->getFromCache() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 443
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->get() 
-/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 413
+DEBUG  Lampcms\Cache\Mongo->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 413
 looking for key: tr_en_US
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->get() 
-/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 414
-in collection: C_Cache in DB: LAMPCMS
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->get() 
-/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 423
+DEBUG  Lampcms\Cache\Mongo->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 414
+in collection: C_Cache in DB: Raudra_Forum
+DEBUG  Lampcms\Cache\Mongo->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 423
 found result in cache
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->getData() 
-/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 529
+DEBUG  Lampcms\Cache\Mongo->getData() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 529
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->initParams() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 430
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 440
+getting filtered for a
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 443
+cp not yet in $this->aFiltered
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 440
+getting filtered for a
+DEBUG  Lampcms\WebPage->initParams() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 430
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->setTemplateDir() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 1124
+DEBUG  Lampcms\WebPage->setTemplateDir() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 1124
 setting template dir
-DEBUG September 1, 2016 21:17:47 Lampcms\Base->isLoggedIn() 
-/var/www/lampcms/lib/Lampcms/Base.php  line: 367
+DEBUG  Lampcms\Base->isLoggedIn() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Base.php  line: 367
 bLoggedIn not set
-DEBUG September 1, 2016 21:17:47 Lampcms\Mongo\DB->getCollection() 
-/var/www/lampcms/lib/Lampcms/Mongo/DB.php  line: 458
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
 $collName: USERS
-DEBUG September 1, 2016 21:17:47 Lampcms\User->getUid() 
-/var/www/lampcms/lib/Lampcms/User.php  line: 171
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
 $this->keyColumn: _id
-DEBUG September 1, 2016 21:17:47 Lampcms\User->isGuest() 
-/var/www/lampcms/lib/Lampcms/User.php  line: 212
-uid: 2
-DEBUG September 1, 2016 21:17:47 Lampcms\Base->isLoggedIn() 
-/var/www/lampcms/lib/Lampcms/Base.php  line: 369
+DEBUG  Lampcms\User->isGuest() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 212
+uid: 4
+DEBUG  Lampcms\Base->isLoggedIn() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Base.php  line: 369
 bLoggedIn now: 1
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->loginByFacebookCookie() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 637
+DEBUG  Lampcms\WebPage->loginByFacebookCookie() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 637
 skipping loginByFacebookCookie
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->loginBySid() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 584
+DEBUG  Lampcms\WebPage->loginBySid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 584
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\User->getUid() 
-/var/www/lampcms/lib/Lampcms/User.php  line: 171
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
 $this->keyColumn: _id
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->addJoinForm() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 1089
+DEBUG  Lampcms\WebPage->addJoinForm() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 1089
 dnd: 
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->addLangForm() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 1141
+DEBUG  Lampcms\WebPage->addLangForm() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 1141
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->__construct() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 280
+DEBUG  Lampcms\WebPage->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 280
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\Base->checkAccessPermission() 
-/var/www/lampcms/lib/Lampcms/Base.php  line: 222
+DEBUG  Lampcms\Base->checkAccessPermission() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Base.php  line: 222
 $privilege is null
-DEBUG September 1, 2016 21:17:47 Lampcms\Base->checkAccessPermission() 
-/var/www/lampcms/lib/Lampcms/Base.php  line: 226
-$this->permission not set
-DEBUG September 1, 2016 21:17:47 Lampcms\Mongo\DB->getCollection() 
-/var/www/lampcms/lib/Lampcms/Mongo/DB.php  line: 458
-$collName: QUESTIONS
-DEBUG September 1, 2016 21:17:47 Lampcms\Controllers\Viewquestions->getCursor() 
-/var/www/lampcms/lib/Lampcms/Controllers/Viewquestions.php  line: 174
-cond: recent
-DEBUG September 1, 2016 21:17:47 Lampcms\Controllers\Viewquestions->getCursor() 
-/var/www/lampcms/lib/Lampcms/Controllers/Viewquestions.php  line: 264
-$this->Cursor: object
-DEBUG September 1, 2016 21:17:47 Lampcms\Controllers\Viewquestions->paginate() 
-/var/www/lampcms/lib/Lampcms/Controllers/Viewquestions.php  line: 279
-paginating with $this->pagerPath: {_viewquestions_}
-DEBUG September 1, 2016 21:17:47 Lampcms\Paginator->paginate() 
-/var/www/lampcms/lib/Lampcms/Paginator.php  line: 128
-got mongo cursor
-DEBUG September 1, 2016 21:17:47 Lampcms\Paginator->paginate() 
-/var/www/lampcms/lib/Lampcms/Paginator.php  line: 131
-totalItems: 3
-DEBUG September 1, 2016 21:17:47 Lampcms\Paginator->paginate() 
-/var/www/lampcms/lib/Lampcms/Paginator.php  line: 147
-curPage: 1
-DEBUG September 1, 2016 21:17:47 Lampcms\Paginator->paginate() 
-/var/www/lampcms/lib/Lampcms/Paginator.php  line: 149
-skip: 0
-DEBUG September 1, 2016 21:17:47 Pear\Pager\Common->getPageData() 
-/var/www/lampcms/lib/Pear/Pager/Common.php  line: 574
-$pageID: 1
-DEBUG September 1, 2016 21:17:47 Lampcms\User->getUid() 
-/var/www/lampcms/lib/Lampcms/User.php  line: 171
-$this->keyColumn: _id
-DEBUG September 1, 2016 21:17:47 Lampcms\Controllers\Viewquestions->makeQlistBody() 
-/var/www/lampcms/lib/Lampcms/Controllers/Viewquestions.php  line: 404
-cp
-DEBUG September 1, 2016 21:17:47 Lampcms\Controllers\Viewquestions->makeFollowedTags() 
-/var/www/lampcms/lib/Lampcms/Controllers/Viewquestions.php  line: 439
-$aFollowed: []
-DEBUG September 1, 2016 21:17:47 Lampcms\Controllers\Viewquestions->makeRecentTags() 
-/var/www/lampcms/lib/Lampcms/Controllers/Viewquestions.php  line: 311
-$aUserTags: []
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->get() 
-/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 188
-$key: qrecent
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->get() 
-/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 196
-cp
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Cache->getFromCache() 
-/var/www/lampcms/lib/Lampcms/Cache/Cache.php  line: 443
-cp
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->get() 
-/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 413
-looking for key: qrecent
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->get() 
-/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 414
-in collection: C_Cache in DB: LAMPCMS
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->get() 
-/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 423
-found result in cache
-DEBUG September 1, 2016 21:17:47 Lampcms\Cache\Mongo->getData() 
-/var/www/lampcms/lib/Lampcms/Cache/Mongo.php  line: 529
-cp
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->__construct() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 295
-cp
-DEBUG September 1, 2016 21:17:47 Lampcms\Event\Dispatcher->_notify() 
-/var/www/lampcms/lib/Lampcms/Event/Dispatcher.php  line: 307
- $nName: onPageView
-DEBUG September 1, 2016 21:17:47 Lampcms\Event\Dispatcher->_notify() 
-/var/www/lampcms/lib/Lampcms/Event/Dispatcher.php  line: 307
+DEBUG  Lampcms\Base->checkAccessPermission() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Base.php  line: 292
+$roleID administrator $privilege: answer
+DEBUG  Lampcms\Forms\Form->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Forms/Form.php  line: 202
+tpl: 
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 440
+getting filtered for token
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 443
+cp not yet in $this->aFiltered
+DEBUG  Lampcms\Forms\Form::validateToken() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Forms/Form.php  line: 793
+submitted form token: 88bd2063e87f2839009a9726726ce5be
+DEBUG  Lampcms\Forms\Form->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Forms/Form.php  line: 215
+$this->aUploads: {"image":{"name":"cwndow.jpg","type":"image\/jpeg","tmp_name":"\/tmp\/phpztnSTh","error":0,"size":739233}}
+DEBUG  Lampcms\Forms\Form->getUploadedFile() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Forms/Form.php  line: 392
+looking for uploaded file: image
+DEBUG  Lampcms\Forms\Form->getUploadedFile() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Forms/Form.php  line: 432
+$temp_file: /tmp/uploadedqoulSe
+DEBUG  Lampcms\Forms\Form->getUploadedFile() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Forms/Form.php  line: 439
+new file path: /tmp/uploadedqoulSe
+DEBUG  Lampcms\Image\EditorGD->loadImage() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 112
+$sPath: /tmp/uploadedqoulSe
+DEBUG  Lampcms\Image\EditorGD->loadImage() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 117
+$aOrigSize:  Array
+(
+    [0] => 947
+    [1] => 704
+    [2] => 3
+    [3] => width="947" height="704"
+    [bits] => 8
+    [mime] => image/png
+)
+
+DEBUG  Lampcms\Image\EditorGD->loadImage() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 152
+$this->origType: png
+DEBUG  Lampcms\Mongo\Doc->save() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 502
+kval: 4
+DEBUG  Lampcms\Mongo\Doc->setChecksum() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 486
+just reset checksum to 5c8993fa9684dbb10dca980f4c69a9ae for object object: Lampcms\User
+hashCode: a2148740a85ace0b46ca074f7566199b
+DEBUG  Lampcms\Mongo\Doc->update() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 669
+ret: Array $new md5: 5c8993fa9684dbb10dca980f4c69a9ae
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: onCollectionUpdate
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
  $nName: EVENT_DISPATCHER_GLOBAL
-DEBUG September 1, 2016 21:17:47 Lampcms\Modules\Observers\LoginHistory->main() 
-/var/www/lampcms/lib/Lampcms/Modules/Observers/LoginHistory.php  line: 77
-get event: onPageView
-DEBUG September 1, 2016 21:17:47 Lampcms\User->getUid() 
-/var/www/lampcms/lib/Lampcms/User.php  line: 171
+DEBUG  Lampcms\Modules\Observers\LoginHistory->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/LoginHistory.php  line: 77
+get event: onCollectionUpdate
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
 $this->keyColumn: _id
-DEBUG September 1, 2016 21:17:47 Lampcms\Modules\Observers\Online->run() 
-/var/www/lampcms/lib/Lampcms/Modules/Observers/Online.php  line: 131
-uid: 2
-DEBUG September 1, 2016 21:17:47 Lampcms\User->getUid() 
-/var/www/lampcms/lib/Lampcms/User.php  line: 171
+DEBUG  Lampcms\Image\EditorGD->getFactor() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 441
+cp
+DEBUG  Lampcms\Image\EditorGD->getFactor() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 456
+$new_width 400 $new_height: 297 $this->factor: 2.3675
+DEBUG  Lampcms\Image\EditorGD->getFactor() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 441
+cp
+DEBUG  Lampcms\Image\EditorGD->getFactor() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 456
+$new_width 400 $new_height: 297 $this->factor: 2.3675
+DEBUG  Lampcms\Image\EditorGD->createGDResource() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 556
+bTrueColor: 1
+DEBUG  Lampcms\Image\EditorGD->scale() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 347
+$fnResize: imagecopyresampled
+DEBUG  Lampcms\Image\EditorGD->scale() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 350
+resized result: 1
+DEBUG  Lampcms\Image\EditorGD->save() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 232
+$strDestination: /var/www/html/Raudra_Forum/www/w/img/u4/2016/09/08/1473347737_ws.png $hdlImg: 
+DEBUG  Lampcms\Image\EditorGD->save() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 240
+$width 400
+DEBUG  Lampcms\Image\EditorGD->save() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 243
+cp
+DEBUG  Lampcms\Image\EditorGD->save() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Image/EditorGD.php  line: 286
+cp
+DEBUG  Lampcms\User->setLastActive() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 937
+$lastActive was: 1473347555
+DEBUG  Lampcms\Mongo\Doc->saveIfChanged() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 699
+No changes to original array, update is not necessary
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\LoginHistory
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\Online
+DEBUG  Lampcms\Cache\Cache->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 138
+starting Cache
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Cache\Cache
+DEBUG  Lampcms\Cache\Cache->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 143
+cp
+DEBUG  Lampcms\Cache\Cache->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 145
+cp
+DEBUG  Lampcms\Cache\Mongo::factory() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 110
+cp
+DEBUG  Lampcms\Cache\Cache->__get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 385
+looking for tr_en_US
+DEBUG  Lampcms\Cache\Cache->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 188
+$key: tr_en_US
+DEBUG  Lampcms\Cache\Cache->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 196
+cp
+DEBUG  Lampcms\Cache\Cache->getFromCache() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 443
+cp
+DEBUG  Lampcms\Cache\Mongo->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 413
+looking for key: tr_en_US
+DEBUG  Lampcms\Cache\Mongo->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 414
+in collection: C_Cache in DB: Raudra_Forum
+DEBUG  Lampcms\Cache\Mongo->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 423
+found result in cache
+DEBUG  Lampcms\Cache\Mongo->getData() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 529
+cp
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 440
+getting filtered for a
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 443
+cp not yet in $this->aFiltered
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 440
+getting filtered for a
+DEBUG  Lampcms\WebPage->initParams() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 430
+cp
+DEBUG  Lampcms\WebPage->setTemplateDir() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 1124
+setting template dir
+DEBUG  Lampcms\Base->isLoggedIn() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Base.php  line: 367
+bLoggedIn not set
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: USERS
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
 $this->keyColumn: _id
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->getResult() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 744
+DEBUG  Lampcms\User->isGuest() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 212
+uid: 4
+DEBUG  Lampcms\Base->isLoggedIn() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Base.php  line: 369
+bLoggedIn now: 1
+DEBUG  Lampcms\WebPage->loginByFacebookCookie() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 637
+skipping loginByFacebookCookie
+DEBUG  Lampcms\WebPage->loginBySid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 584
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\User->getUid() 
-/var/www/lampcms/lib/Lampcms/User.php  line: 171
+DEBUG  Lampcms\WebPage->initPageVars() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 454
+special case: answer
+DEBUG  Lampcms\WebPage->addLangForm() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 1141
+cp
+DEBUG  Lampcms\WebPage->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 280
+cp
+DEBUG  Lampcms\Base->checkAccessPermission() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Base.php  line: 222
+$privilege is null
+DEBUG  Lampcms\Base->checkAccessPermission() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Base.php  line: 292
+$roleID administrator $privilege: answer
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 440
+getting filtered for qid
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 443
+cp not yet in $this->aFiltered
+DEBUG  Lampcms\Controllers\Viewquestion->getQuestion() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Controllers/Viewquestion.php  line: 328
+no comments: 
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: QUESTIONS
+DEBUG  Lampcms\Cache\Cache->__get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 385
+looking for categories
+DEBUG  Lampcms\Cache\Cache->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 188
+$key: categories
+DEBUG  Lampcms\Cache\Cache->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 196
+cp
+DEBUG  Lampcms\Cache\Cache->getFromCache() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 443
+cp
+DEBUG  Lampcms\Cache\Mongo->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 413
+looking for key: categories
+DEBUG  Lampcms\Cache\Mongo->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 414
+in collection: C_Cache in DB: Raudra_Forum
+DEBUG  Lampcms\Cache\Mongo->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 423
+found result in cache
+DEBUG  Lampcms\Cache\Mongo->getData() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 529
+cp
+DEBUG  Lampcms\Forms\Form->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Forms/Form.php  line: 202
+tpl: tplFormanswer
+DEBUG  Lampcms\Forms\Form->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Forms/Form.php  line: 206
+$this->aVars: {"token":"","required":"required","qbody":"","qbody_e":"","submit":"@@Submit answer@@","com_hand":"","readonly":"","disabled":"","connectBlock":"","formError":"","title":"@@Your answer@@","qid":"","socials":"","preview":"@@Preview@@"}
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 440
+getting filtered for token
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 443
+cp not yet in $this->aFiltered
+DEBUG  Lampcms\Forms\Form::validateToken() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Forms/Form.php  line: 793
+submitted form token: 88bd2063e87f2839009a9726726ce5be
+DEBUG  Lampcms\Forms\Form->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Forms/Form.php  line: 215
+$this->aUploads: []
+DEBUG  Lampcms\SocialCheckboxes::get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/SocialCheckboxes.php  line: 82
+cp
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
 $this->keyColumn: _id
-DEBUG September 1, 2016 21:17:47 Lampcms\User->isGuest() 
-/var/www/lampcms/lib/Lampcms/User.php  line: 212
-uid: 2
-DEBUG September 1, 2016 21:17:47 Lampcms\LoginForm::forMember() 
-/var/www/lampcms/lib/Lampcms/LoginForm.php  line: 86
-Welcome menu already existed! 
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->getResult() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 746
+DEBUG  Lampcms\User->isGuest() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 212
+uid: 4
+DEBUG  Lampcms\SocialCheckboxes::get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/SocialCheckboxes.php  line: 159
+ret: 
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 440
+getting filtered for qbody
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 443
+cp not yet in $this->aFiltered
+DEBUG  Lampcms\String->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/String.php  line: 123
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->getResult() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 748
+DEBUG  Lampcms\String->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/String.php  line: 123
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->addExtraCss() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 807
-Got extra css to add
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->getResult() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 750
+DEBUG  Lampcms\String->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/String.php  line: 123
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\WebPage->getResult() 
-/var/www/lampcms/lib/Lampcms/WebPage.php  line: 752
+DEBUG  Lampcms\String->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/String.php  line: 123
 cp
-DEBUG September 1, 2016 21:17:47 Lampcms\Geo\Ip->getLocation() 
-/var/www/lampcms/lib/Lampcms/Geo/Ip.php  line: 84
-ip not public
-DEBUG September 1, 2016 21:17:47 Lampcms\User->setLastActive() 
-/var/www/lampcms/lib/Lampcms/User.php  line: 937
-$lastActive was: 1472744770
-DEBUG September 1, 2016 21:17:47 Lampcms\Mongo\Doc->saveIfChanged() 
-/var/www/lampcms/lib/Lampcms/Mongo/Doc.php  line: 699
+DEBUG  Lampcms\String->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/String.php  line: 123
+cp
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 440
+getting filtered for id_qbody_createlink_url
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 443
+cp not yet in $this->aFiltered
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 440
+getting filtered for id_qbody_createlink_title
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 443
+cp not yet in $this->aFiltered
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 440
+getting filtered for id_qbody_insertimage_link
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 443
+cp not yet in $this->aFiltered
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 440
+getting filtered for ans_submit
+DEBUG  Lampcms\Request->getFiltered() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Request.php  line: 443
+cp not yet in $this->aFiltered
+DEBUG  Lampcms\Forms\Form->getSubmittedValues() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Forms/Form.php  line: 345
+$aFields: Array
+(
+    [0] => token
+    [1] => required
+    [2] => qbody
+    [3] => qbody_e
+    [4] => submit
+    [5] => com_hand
+    [6] => readonly
+    [7] => disabled
+    [8] => connectBlock
+    [9] => formError
+    [10] => title
+    [11] => qid
+    [12] => socials
+    [13] => preview
+)
+ Request->getArray(): Array
+(
+    [a] => answer
+    [qid] => 6
+    [token] => 88bd2063e87f2839009a9726726ce5be
+    [qbody] => ijsujoipo ai <br><br>&nbsp;a<br>d<br>f<img alt="image" title="image" src="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737_ws.png">
+    [id_qbody_createlink_url] => 
+    [id_qbody_createlink_title] => 
+    [id_qbody_insertimage_link] => 
+    [ans_submit] => Submit answer
+)
+ POST: Array
+(
+    [a] => answer
+    [qid] => 6
+    [token] => 88bd2063e87f2839009a9726726ce5be
+    [id_qbody_createlink_url] => 
+    [id_qbody_createlink_title] => 
+    [id_qbody_insertimage_link] => 
+    [qbody] => ijsujoipo ai <br><br>&nbsp;a<br>d<br>f<img alt="image" title="image" src="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737_ws.png">
+    [ans_submit] => Submit answer
+)
+
+DEBUG  Lampcms\Forms\Form->getSubmittedValues() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Forms/Form.php  line: 351
+submitted values: Array
+(
+    [qid] => 6
+    [token] => 88bd2063e87f2839009a9726726ce5be
+    [qbody] => ijsujoipo ai <br><br>&nbsp;a<br>d<br>f<img alt="image" title="image" src="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737_ws.png">
+)
+
+DEBUG  Lampcms\Controllers\Answer->process() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Controllers/Answer.php  line: 145
+formVals: Array
+(
+    [qid] => 6
+    [token] => 88bd2063e87f2839009a9726726ce5be
+    [qbody] => ijsujoipo ai <br><br>&nbsp;a<br>d<br>f<img alt="image" title="image" src="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737_ws.png">
+)
+
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\IpFilter
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\FloodCheck
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\Similars
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\Moderator
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\EmailNotifier
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: QUESTIONS
+DEBUG  Lampcms\String->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/String.php  line: 123
+cp
+DEBUG  Lampcms\Utf8BaseString->tidy() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Utf8BaseString.php  line: 1133
+going to use tidy_parse_string
+DEBUG  Lampcms\Utf8BaseString->tidy() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Utf8BaseString.php  line: 1155
+after tidy: ijsujoipo ai<br>
+<br>
+ a<br>
+d<br>
+f<img alt="image" title="image" src="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737_ws.png">
+DEBUG  Lampcms\String->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/String.php  line: 123
+cp
+DEBUG  Lampcms\Utf8BaseString->safeHtml() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Utf8BaseString.php  line: 1186
+after safeHtml(): ijsujoipo ai<br />
+<br />
+ a<br />
+d<br />
+f<img alt="image" title="image" src="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737_ws.png" />
+DEBUG  Lampcms\String->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/String.php  line: 123
+cp
+DEBUG  Lampcms\String->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/String.php  line: 123
+cp
+DEBUG  Lampcms\String\HTMLStringParser->parseCodeTags() 
+/var/www/html/Raudra_Forum/lib/Lampcms/String/HTMLStringParser.php  line: 390
+no code elements
+DEBUG  Lampcms\Answerparser->makeAnswer() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 194
+after HTMLStringParser: ijsujoipo ai<br><br>
+ a<br>
+d<br>
+f<a href="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737.png" target="_blank" class="websize"><img alt="image" title="image" src="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737_ws.png" border="0"></a>
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: ANSWERS
+DEBUG  Lampcms\Mongo\Doc->save() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 502
+kval: 
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: Autoincrements
+DEBUG  Lampcms\Mongo\Doc->insert() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 588
+setting value of _id to 8
+DEBUG  Lampcms\Mongo\DB->insertData() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 271
+$option: array (
+  'safe' => true,
+)
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: RESOURCE
+DEBUG  Lampcms\Mongo\Doc->insert() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 596
+insertData returned res: 8
+DEBUG  Lampcms\Mongo\Doc->setChecksum() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 486
+just reset checksum to 3b6be580352bee9079d3de0319db2e6e for object object: Lampcms\Resource
+hashCode: 000000002021136100007f5fbd66d2d9
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: onCollectionInsert
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: EVENT_DISPATCHER_GLOBAL
+DEBUG  Lampcms\Modules\Observers\LoginHistory->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/LoginHistory.php  line: 77
+get event: onCollectionInsert
+DEBUG  Lampcms\Modules\Observers\IpFilter->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/IpFilter.php  line: 69
+get some event
+DEBUG  Lampcms\Modules\Observers\FloodCheck->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/FloodCheck.php  line: 77
+flood check not performed in debug mode
+DEBUG  Lampcms\Modules\Observers\Similars->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/Similars.php  line: 74
+cp
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 214
+get event: onCollectionInsert
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 243
+done main()
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG  Lampcms\String->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/String.php  line: 123
+cp
+DEBUG  Lampcms\Answerparser->makeAnswer() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 255
+$aExtraData: Array
+(
+)
+
+DEBUG  Lampcms\Answerparser->makeAnswer() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 259
+$aData: Array
+(
+    [_id] => 8
+    [i_qid] => 6
+    [i_uid] => 4
+    [i_quid] => 4
+    [title] => jkadsjfhashdj]fas ai s jdi jaiod jf[asojid [ioas  k uj
+    [hash] => dea79541a621814d2de3c3c4b61b4f22
+    [username] => Raudra
+    [ulink] => <a href="{_WEB_ROOT_}/{_userinfo_}/4/Raudra">Raudra</a>
+    [avtr] => http://www.gravatar.com/avatar/638a44f7dd508d4ebcb360c0de688740?s=44&d=identicon&r=PG
+    [i_words] => 5
+    [i_up] => 0
+    [i_down] => 0
+    [i_votes] => 0
+    [i_cat] => 1
+    [b] => ijsujoipo ai<br><br>
+ a<br>
+d<br>
+f<a href="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737.png" target="_blank" class="websize"><img alt="image" title="image" src="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737_ws.png" border="0"></a>
+    [i_ts] => 1473347756
+    [i_lm_ts] => 1473347756
+    [hts] => September 8, 2016 8:45 pm IST
+    [v_s] => s
+    [accepted] => 
+    [ip] => 183.82.118.3
+    [i_status] => 1
+    [app] => web
+    [a_img] => Array
+        (
+            [0] => /u4/2016/09/08/1473347737_ws.png
+        )
+
+)
+
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: onBeforeNewAnswer
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: EVENT_DISPATCHER_GLOBAL
+DEBUG  Lampcms\Modules\Observers\LoginHistory->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/LoginHistory.php  line: 77
+get event: onBeforeNewAnswer
+DEBUG  Lampcms\Modules\Observers\IpFilter->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/IpFilter.php  line: 69
+get some event
+DEBUG  Lampcms\Modules\Observers\IpFilter->checkIP() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/IpFilter.php  line: 85
+checking IP: 183.82.118.3
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: BANNED_IP
+DEBUG  Lampcms\Modules\Observers\FloodCheck->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/FloodCheck.php  line: 77
+flood check not performed in debug mode
+DEBUG  Lampcms\Modules\Observers\Similars->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/Similars.php  line: 74
+cp
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 214
+get event: onBeforeNewAnswer
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 243
+done main()
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: ANSWERS
+DEBUG  Lampcms\Mongo\DB->insertData() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 271
+$option: array (
+  'safe' => true,
+)
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: ANSWERS
+DEBUG  Lampcms\Mongo\Doc->insert() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 596
+insertData returned res: 8
+DEBUG  Lampcms\Mongo\Doc->setChecksum() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 486
+just reset checksum to 4ffcfa8f78fa02bdd6eac77782f40936 for object object: Lampcms\Answer
+hashCode: 000000002021137c00007f5fbd66d2d9
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: onCollectionInsert
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: EVENT_DISPATCHER_GLOBAL
+DEBUG  Lampcms\Modules\Observers\LoginHistory->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/LoginHistory.php  line: 77
+get event: onCollectionInsert
+DEBUG  Lampcms\Modules\Observers\IpFilter->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/IpFilter.php  line: 69
+get some event
+DEBUG  Lampcms\Modules\Observers\FloodCheck->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/FloodCheck.php  line: 77
+flood check not performed in debug mode
+DEBUG  Lampcms\Modules\Observers\Similars->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/Similars.php  line: 74
+cp
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 214
+get event: onCollectionInsert
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 243
+done main()
+DEBUG  Lampcms\Answerparser->makeAnswer() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 294
+cp
+DEBUG  Lampcms\Category\Updator->addAnswer() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Category/Updator.php  line: 277
+cp
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: CATEGORY
+DEBUG  Lampcms\Answerparser->updateQuestion() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 390
+cp
+DEBUG  Lampcms\Answerparser->updateQuestion() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 392
+cp
+DEBUG  Lampcms\Question->updateAnswerCount() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Question.php  line: 479
+$iAns 1
+DEBUG  Lampcms\Question->updateAnswerCount() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Question.php  line: 490
+$newCount: 2
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG  Lampcms\Mongo\Doc->save() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 502
+kval: 6
+DEBUG  Lampcms\Mongo\Doc->setChecksum() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 486
+just reset checksum to 19b961ab7eb5f6b8a459cfabe1a89056 for object object: Lampcms\Question
+hashCode: 000000002021135100007f5fbd66d2d9
+DEBUG  Lampcms\Mongo\Doc->update() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 669
+ret: Array $new md5: 19b961ab7eb5f6b8a459cfabe1a89056
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: onCollectionUpdate
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: EVENT_DISPATCHER_GLOBAL
+DEBUG  Lampcms\Modules\Observers\LoginHistory->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/LoginHistory.php  line: 77
+get event: onCollectionUpdate
+DEBUG  Lampcms\Modules\Observers\IpFilter->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/IpFilter.php  line: 69
+get some event
+DEBUG  Lampcms\Modules\Observers\FloodCheck->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/FloodCheck.php  line: 77
+flood check not performed in debug mode
+DEBUG  Lampcms\Modules\Observers\Similars->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/Similars.php  line: 74
+cp
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 214
+get event: onCollectionUpdate
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 243
+done main()
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: onCategoryUpdate
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: EVENT_DISPATCHER_GLOBAL
+DEBUG  Lampcms\Modules\Observers\LoginHistory->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/LoginHistory.php  line: 77
+get event: onCategoryUpdate
+DEBUG  Lampcms\Cache\Cache->__unset() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 551
+Deleting from cache key: categories
+DEBUG  Lampcms\Cache\Cache->__unset() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 555
+ret: 1
+DEBUG  Lampcms\Modules\Observers\IpFilter->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/IpFilter.php  line: 69
+get some event
+DEBUG  Lampcms\Modules\Observers\FloodCheck->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/FloodCheck.php  line: 77
+flood check not performed in debug mode
+DEBUG  Lampcms\Modules\Observers\Similars->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/Similars.php  line: 74
+cp
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 214
+get event: onCategoryUpdate
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 243
+done main()
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: onNewAnswer
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: EVENT_DISPATCHER_GLOBAL
+DEBUG  Lampcms\Modules\Observers\LoginHistory->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/LoginHistory.php  line: 77
+get event: onNewAnswer
+DEBUG  Lampcms\Cache\Cache->__unset() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 551
+Deleting from cache key: qunanswered
+DEBUG  Lampcms\Cache\Cache->__unset() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 555
+ret: 1
+DEBUG  Lampcms\Modules\Observers\IpFilter->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/IpFilter.php  line: 69
+get some event
+DEBUG  Lampcms\Modules\Observers\FloodCheck->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/FloodCheck.php  line: 77
+flood check not performed in debug mode
+DEBUG  Lampcms\Modules\Observers\Similars->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/Similars.php  line: 74
+cp
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 214
+get event: onNewAnswer
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: USERS
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->notifyUserFollowers() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 583
+uid: 4
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->notifyUserFollowers() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 614
+before shutdown function in UserFollowers
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->notifyQuestionFollowers() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 680
+$viewerID: 4
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->notifyQuestionFollowers() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 720
+url: http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/index.php/viewquestion/quest6/#ans8
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->notifyQuestionFollowers() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 743
+before shutdown function for question followers
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 243
+done main()
+DEBUG  Lampcms\Answerparser->makeAnswer() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 307
+cp
+DEBUG  Lampcms\Answerparser->addUserTags() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 464
+cp
+DEBUG  Lampcms\Answerparser->addUserTags() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 466
+cp
+DEBUG  Lampcms\Answerparser->addUserTags() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 468
+cp
+DEBUG  Lampcms\Answerparser->addUserTags() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 472
+cp
+DEBUG  Lampcms\Answerparser->addUserTags() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 474
+cp
+DEBUG  Lampcms\Answerparser->makeAnswer() 
+/var/www/html/Raudra_Forum/lib/Lampcms/AnswerParser.php  line: 314
+cp
+DEBUG  Lampcms\FollowManager->followQuestion() 
+/var/www/html/Raudra_Forum/lib/Lampcms/FollowManager.php  line: 119
+cp
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: QUESTIONS
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG  Lampcms\FollowManager->followQuestion() 
+/var/www/html/Raudra_Forum/lib/Lampcms/FollowManager.php  line: 133
+qid: 6 $uid: 4
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: onBeforeQuestionFollow
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: EVENT_DISPATCHER_GLOBAL
+DEBUG  Lampcms\Modules\Observers\LoginHistory->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/LoginHistory.php  line: 77
+get event: onBeforeQuestionFollow
+DEBUG  Lampcms\Modules\Observers\IpFilter->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/IpFilter.php  line: 69
+get some event
+DEBUG  Lampcms\Modules\Observers\FloodCheck->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/FloodCheck.php  line: 77
+flood check not performed in debug mode
+DEBUG  Lampcms\Modules\Observers\Similars->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/Similars.php  line: 74
+cp
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 214
+get event: onBeforeQuestionFollow
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 243
+done main()
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: onQuestionFollow
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: EVENT_DISPATCHER_GLOBAL
+DEBUG  Lampcms\Modules\Observers\LoginHistory->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/LoginHistory.php  line: 77
+get event: onQuestionFollow
+DEBUG  Lampcms\Modules\Observers\IpFilter->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/IpFilter.php  line: 69
+get some event
+DEBUG  Lampcms\Modules\Observers\FloodCheck->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/FloodCheck.php  line: 77
+flood check not performed in debug mode
+DEBUG  Lampcms\Modules\Observers\Similars->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/Similars.php  line: 74
+cp
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 214
+get event: onQuestionFollow
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 243
+done main()
+DEBUG  Lampcms\Controllers\Answer->process() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Controllers/Answer.php  line: 149
+cp created new answer: Array
+(
+    [_id] => 8
+    [i_qid] => 6
+    [i_uid] => 4
+    [i_quid] => 4
+    [title] => jkadsjfhashdj]fas ai s jdi jaiod jf[asojid [ioas  k uj
+    [hash] => dea79541a621814d2de3c3c4b61b4f22
+    [username] => Raudra
+    [ulink] => <a href="{_WEB_ROOT_}/{_userinfo_}/4/Raudra">Raudra</a>
+    [avtr] => http://www.gravatar.com/avatar/638a44f7dd508d4ebcb360c0de688740?s=44&d=identicon&r=PG
+    [i_words] => 5
+    [i_up] => 0
+    [i_down] => 0
+    [i_votes] => 0
+    [i_cat] => 1
+    [b] => ijsujoipo ai<br><br>
+ a<br>
+d<br>
+f<a href="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737.png" target="_blank" class="websize"><img alt="image" title="image" src="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737_ws.png" border="0"></a>
+    [i_ts] => 1473347756
+    [i_lm_ts] => 1473347756
+    [hts] => September 8, 2016 8:45 pm IST
+    [v_s] => s
+    [accepted] => 
+    [ip] => 183.82.118.3
+    [i_status] => 1
+    [app] => web
+    [a_img] => Array
+        (
+            [0] => /u4/2016/09/08/1473347737_ws.png
+        )
+
+)
+
+DEBUG  Lampcms\Controllers\Answer->process() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Controllers/Answer.php  line: 150
+ans id: 8
+DEBUG  Lampcms\Controllers\Answer->process() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Controllers/Answer.php  line: 176
+before sending out $a: Array
+(
+    [answer] => 
+  <!-- Template /var/www/html/Raudra_Forum/www/style/1/www/tplAnswer -->
+  <table class="ans_table" id="ans8" lampcms:rid="8" lampcms:i_votes="0" lampcms:i_lm_ts="1473347756" lampcms:i_comments="0" lampcms:i_uid="4">
+	<tr>
+		<td class="td_votes" width="60px">
+		<div class="votebtns cb" id="vote8">
+		<a id="upvote-8"
+			title="I like this answer (click again to cancel)"
+			class="ttt ajax vote thumbup" href="{_WEB_ROOT_}/{_vote_}/8/up/a" rel="nofollow">⇧</a>
+		<div id="score8" class="qscore">0</div>
+
+		<a id="downvote-8"
+			title="I dont like this answer (click again to cancel)"
+			class="ttt ajax vote thumbdown down" href="{_WEB_ROOT_}/{_vote_}/8/down/a" rel="nofollow">⇩</a>
+		</div>
+		<div class="acceptit anstype"></div>
+		<div class="acceptit">&nbsp</div>
+		</td>
+
+		<td class="td_answer">
+		<div class="ans_body" id="ansbody-8">
+		
+		ijsujoipo ai<br><br>
+ a<br>
+d<br>
+f<a href="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737.png" target="_blank" class="websize"><img alt="image" title="image" src="http://ec2-52-66-105-131.ap-south-1.compute.amazonaws.com/w/img/u4/2016/09/08/1473347737_ws.png" border="0"></a></div>
+
+		<div class="answer controls uid-4" id="res_8">
+		   	<span class="ico flag ttt ajax" title="@@Flag this answer as inappropriate@@">@@flag@@</span>  <span class="ico del ajax" title="@@Delete@@">@@delete@@</span>  <span class="ico edit ajax" title="@@Edit@@">@@edit@@</span>
+		</div>
+		<!-- // -->
+		<table class="foot">
+            <tr>
+            <td class="edits" valign="top">
+            
+            </td>
+            <td class="td_poster">
+            <div class="usr_info2">
+            <div class="qtime">answered <span title="September 8, 2016 08:45 PM" class="ts">September 8, 2016 08:45 PM</span></div>
+            <div class="avtr32">
+             <img src="http://www.gravatar.com/avatar/638a44f7dd508d4ebcb360c0de688740?s=44&d=identicon&r=PG" height="32" width="32" alt="">
+            </div>
+            	<div class="usr_details usr usr_4">
+            	<a href="{_WEB_ROOT_}/{_userinfo_}/4/Raudra">Raudra</a><br>
+            	<span class="reputation" title="@@reputation score@@"></span>
+				</div>
+			</div>
+			
+            </td>
+            </tr>
+            </table>
+		</td>
+	</tr>
+	<tr>
+	<td></td>
+	<td>
+		<div class="comments i_comments_0" id="comments-8">
+		
+			<div class="add_com cb fl">
+				<span class="ico comment fl"> </span><a href="#" class="ajax com_link uid-4" id="comlink_8">@@add comment@@</a>
+			</div>
+		</div>
+	</td>
+	</tr>
+	</table>
+  <!-- // Template /var/www/html/Raudra_Forum/www/style/1/www/tplAnswer -->
+
+)
+
+DEBUG  Lampcms\Responder::sendJSON() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Responder.php  line: 129
+Sending json: {"answer":"\n  <!-- Template \/var\/www\/html\/Raudra_Forum\/www\/style\/1\/www\/tplAnswer -->\n  <table class=\"ans_table\" id=\"ans8\" lampcms:rid=\"8\" lampcms:i_votes=\"0\" lampcms:i_lm_ts=\"1473347756\" lampcms:i_comments=\"0\" lampcms:i_uid=\"4\">\r\n\t<tr>\r\n\t\t<td class=\"td_votes\" width=\"60px\">\r\n\t\t<div class=\"votebtns cb\" id=\"vote8\">\r\n\t\t<a id=\"upvote-8\"\r\n\t\t\ttitle=\"I like this answer (click again to cancel)\"\r\n\t\t\tclass=\"ttt ajax vote thumbup\" href=\"{_WEB_ROOT_}\/{_vote_}\/8\/up\/a\" rel=\"nofollow\">\u21e7<\/a>\r\n\t\t<div id=\"score8\" class=\"qscore\">0<\/div>\r\n\r\n\t\t<a id=\"downvote-8\"\r\n\t\t\ttitle=\"I dont like this answer (click again to cancel)\"\r\n\t\t\tclass=\"ttt ajax vote thumbdown down\" href=\"{_WEB_ROOT_}\/{_vote_}\/8\/down\/a\" rel=\"nofollow\">\u21e9<\/a>\r\n\t\t<\/div>\r\n\t\t<div class=\"acceptit anstype\"><\/div>\r\n\t\t<div class=\"acceptit\">&nbsp<\/div>\r\n\t\t<\/td>\r\n\r\n\t\t<td class=\"td_answer\">\r\n\t\t<div class=\"ans_body\" id=\"ansbody-8\">\r\n\t\t\r\n\t\tijsujoipo ai<br><br>\n a<br>\nd<br>\nf<a href=\"http:\/\/ec2-52-66-105-131.ap-south-1.compute.amazonaws.com\/w\/img\/u4\/2016\/09\/08\/1473347737.png\" target=\"_blank\" class=\"websize\"><img alt=\"image\" title=\"image\" src=\"http:\/\/ec2-52-66-105-131.ap-south-1.compute.amazonaws.com\/w\/img\/u4\/2016\/09\/08\/1473347737_ws.png\" border=\"0\"><\/a><\/div>\r\n\r\n\t\t<div class=\"answer controls uid-4\" id=\"res_8\">\r\n\t\t   \t<span class=\"ico flag ttt ajax\" title=\"@@Flag this answer as inappropriate@@\">@@flag@@<\/span>  <span class=\"ico del ajax\" title=\"@@Delete@@\">@@delete@@<\/span>  <span class=\"ico edit ajax\" title=\"@@Edit@@\">@@edit@@<\/span>\r\n\t\t<\/div>\r\n\t\t<!-- \/\/ -->\r\n\t\t<table class=\"foot\">\r\n            <tr>\r\n            <td class=\"edits\" valign=\"top\">\r\n            \r\n            <\/td>\r\n            <td class=\"td_poster\">\r\n            <div class=\"usr_info2\">\r\n            <div class=\"qtime\">answered <span title=\"September 8, 2016 08:45 PM\" class=\"ts\">September 8, 2016 08:45 PM<\/span><\/div>\r\n            <div class=\"avtr32\">\r\n             <img src=\"http:\/\/www.gravatar.com\/avatar\/638a44f7dd508d4ebcb360c0de688740?s=44&d=identicon&r=PG\" height=\"32\" width=\"32\" alt=\"\">\r\n            <\/div>\r\n            \t<div class=\"usr_details usr usr_4\">\r\n            \t<a href=\"{_WEB_ROOT_}\/{_userinfo_}\/4\/Raudra\">Raudra<\/a><br>\r\n            \t<span class=\"reputation\" title=\"@@reputation score@@\"><\/span>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\t\t\t\r\n            <\/td>\r\n            <\/tr>\r\n            <\/table>\r\n\t\t<\/td>\r\n\t<\/tr>\r\n\t<tr>\r\n\t<td><\/td>\r\n\t<td>\r\n\t\t<div class=\"comments i_comments_0\" id=\"comments-8\">\r\n\t\t\r\n\t\t\t<div class=\"add_com cb fl\">\r\n\t\t\t\t<span class=\"ico comment fl\"> <\/span><a href=\"#\" class=\"ajax com_link uid-4\" id=\"comlink_8\">@@add comment@@<\/a>\r\n\t\t\t<\/div>\r\n\t\t<\/div>\r\n\t<\/td>\r\n\t<\/tr>\r\n\t<\/table>\n  <!-- \/\/ Template \/var\/www\/html\/Raudra_Forum\/www\/style\/1\/www\/tplAnswer -->\n"}
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: USER_TAGS
+DEBUG  Lampcms\UserTags->addTags() 
+/var/www/html/Raudra_Forum/lib/Lampcms/UserTags.php  line: 161
+Saving (updating) User tags
+DEBUG  Lampcms\UserTags->addTags() 
+/var/www/html/Raudra_Forum/lib/Lampcms/UserTags.php  line: 163
+Updated User Tags
+DEBUG  Lampcms\User->setLastActive() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 937
+$lastActive was: 1473347555
+DEBUG  Lampcms\Mongo\Doc->saveIfChanged() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 699
+No changes to original array, update is not necessary
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\LoginHistory
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\Online
+DEBUG  Lampcms\Cache\Cache->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 138
+starting Cache
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Cache\Cache
+DEBUG  Lampcms\Cache\Cache->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 143
+cp
+DEBUG  Lampcms\Cache\Cache->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 145
+cp
+DEBUG  Lampcms\Cache\Mongo::factory() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 110
+cp
+DEBUG  Lampcms\Cache\Cache->__get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 385
+looking for tr_en_US
+DEBUG  Lampcms\Cache\Cache->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 188
+$key: tr_en_US
+DEBUG  Lampcms\Cache\Cache->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 196
+cp
+DEBUG  Lampcms\Cache\Cache->getFromCache() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Cache.php  line: 443
+cp
+DEBUG  Lampcms\Cache\Mongo->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 413
+looking for key: tr_en_US
+DEBUG  Lampcms\Cache\Mongo->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 414
+in collection: C_Cache in DB: Raudra_Forum
+DEBUG  Lampcms\Cache\Mongo->get() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 423
+found result in cache
+DEBUG  Lampcms\Cache\Mongo->getData() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Cache/Mongo.php  line: 529
+cp
+DEBUG  Lampcms\WebPage->initParams() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 430
+cp
+DEBUG  Lampcms\WebPage->setTemplateDir() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 1124
+setting template dir
+DEBUG  Lampcms\Base->isLoggedIn() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Base.php  line: 367
+bLoggedIn not set
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: USERS
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG  Lampcms\User->isGuest() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 212
+uid: 4
+DEBUG  Lampcms\Base->isLoggedIn() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Base.php  line: 369
+bLoggedIn now: 1
+DEBUG  Lampcms\WebPage->loginByFacebookCookie() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 637
+skipping loginByFacebookCookie
+DEBUG  Lampcms\WebPage->loginBySid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 584
+cp
+DEBUG  Lampcms\WebPage->initPageVars() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 454
+special case: viewquestions
+DEBUG  Lampcms\WebPage->addLangForm() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 1141
+cp
+DEBUG  Lampcms\WebPage->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/WebPage.php  line: 280
+cp
+DEBUG  Lampcms\Base->checkAccessPermission() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Base.php  line: 222
+$privilege is null
+DEBUG  Lampcms\Base->checkAccessPermission() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Base.php  line: 292
+$roleID administrator $privilege: vote
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\IpFilter
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\FloodCheck
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\Similars
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\Moderator
+DEBUG  Lampcms\Event\Observer->__construct() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Observer.php  line: 79
+observer: Lampcms\Modules\Observers\EmailNotifier
+DEBUG  Lampcms\Mongo\DB->getCollection() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/DB.php  line: 458
+$collName: ANSWERS
+DEBUG  Lampcms\Controllers\Vote->getResource() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Controllers/Vote.php  line: 221
+$this->Resource: Lampcms\Answer
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: onBeforeVote
+DEBUG  Lampcms\Event\Dispatcher->_notify() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Event/Dispatcher.php  line: 307
+ $nName: EVENT_DISPATCHER_GLOBAL
+DEBUG  Lampcms\Modules\Observers\LoginHistory->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/LoginHistory.php  line: 77
+get event: onBeforeVote
+DEBUG  Lampcms\Modules\Observers\IpFilter->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/IpFilter.php  line: 69
+get some event
+DEBUG  Lampcms\Modules\Observers\FloodCheck->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/FloodCheck.php  line: 77
+flood check not performed in debug mode
+DEBUG  Lampcms\Modules\Observers\Similars->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/Similars.php  line: 74
+cp
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 214
+get event: onBeforeVote
+DEBUG  Lampcms\Modules\Observers\EmailNotifier->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Modules/Observers/EmailNotifier.php  line: 243
+done main()
+DEBUG  Lampcms\User->getUid() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 171
+$this->keyColumn: _id
+DEBUG  Lampcms\Controllers\Vote->main() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Controllers/Vote.php  line: 161
+Vote not counted due to exception: @@Cannot rate own questions or answers@@ in /var/www/html/Raudra_Forum/lib/Lampcms/Controllers/Vote.php line: 239
+DEBUG  Lampcms\Controllers\Vote->handleReturn() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Controllers/Vote.php  line: 395
+$isAjax: 1
+DEBUG  Lampcms\Responder::sendJSON() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Responder.php  line: 129
+Sending json: {"vote":{"v":0,"t":"ANSWERS","rid":8}}
+DEBUG  Lampcms\User->setLastActive() 
+/var/www/html/Raudra_Forum/lib/Lampcms/User.php  line: 937
+$lastActive was: 1473347555
+DEBUG  Lampcms\Mongo\Doc->saveIfChanged() 
+/var/www/html/Raudra_Forum/lib/Lampcms/Mongo/Doc.php  line: 699
 No changes to original array, update is not necessary
