@@ -1,0 +1,651 @@
+    1  sudo yum update -y
+    2  sudo yum install -y httpd24 php56 mysql55-server php56-mysqlnd
+    3  sudo service httpd start
+    4  sudo chkconfig httpd on
+    5  ls -l /var/www
+    6  sudo groupadd www
+    7  sudo usermod -a -G www ec2-user
+    8  exit
+    9  sudo chown -R root:www /var/www
+   10  sudo chmod 2775 /var/www
+   11  find /var/www -type d -exec sudo chmod 2775 {} \;
+   12   find /var/www -type f -exec sudo chmod 0664 {} \;
+   13  sudo service mysqld start
+   14  sudo mysql_secure_installation
+   15  sudo service mysqld stop
+   16  sudo chkconfig mysqld on
+   17  df -h
+   18  exit
+   19  ip a
+   20  df -h
+   21  cd /dev/sdf
+   22  echo "/dev/sdh /vol xfs noatime 0 0" | sudo tee -a /etc/fstab
+   23  df -h
+   24  sudo mkdir -m 000 /vol
+   25  df -h
+   26  df -ah
+   27  df -h
+   28  lsblk
+   29  df -k
+   30  mount /dev/xvdf /vol
+   31  sudo mount /dev/xvdf /vol
+   32  df -h
+   33  cd /vol/
+   34  ls
+   35  sudo service mysqld stop
+   36  echo "/vol/etc/mysql /etc/mysql     none bind" | sudo tee -a /etc/fstab
+   37  sudo mount /etc/mysql
+   38  cd
+   39  sudo vim /etc/fstab 
+   40  echo "/vol/etc/my.cnf /etc/my.cnf     none bind" | sudo tee -a /etc/fstab
+   41  sudo mount /etc/my.cnf
+   42  cd /etc/
+   43  ls -l
+   44  sudo mkdir /etc/mysql
+   45  sudo mkdir /var/lib/mysql
+   46  sudo mkdir /var/log/mysql
+   47  echo "/vol/lib/mysql /var/lib/mysql none bind" | sudo tee -a /etc/fstab
+   48  sudo mount /var/lib/mysql
+   49  echo "/vol/log/mysql /var/log/mysql none bind" | sudo tee -a /etc/fstab
+   50  sudo mount /var/log/mysql
+   51  ln -s
+   52  ls -l
+   53  ls -larth
+   54  mysql -uroot -p -e 'SHOW VARIABLES WHERE Variable_Name LIKE "%dir"'
+   55  sudo service mysqld start
+   56  mysql -uroot -p -e 'SHOW VARIABLES WHERE Variable_Name LIKE "%dir"'
+   57  cd /var/lib
+   58  ls -arth
+   59  ls -larth
+   60  cd /vol/
+   61  ls
+   62  sudo mkdir dump
+   63  ls
+   64  sudo mv etc/ dump/
+   65  ls
+   66  sudo mv lib/ dump/
+   67  sudo mv log/ dump/
+   68  sudo mv lost+found/ dump/
+   69  sudo mv mysql/ dump/
+   70  ls
+   71  sudo mv ibdata1/ dump/
+   72  sudo mv ibdata1 dump/
+   73  sudo mv ib_logfile0 dump/
+   74  sudo mv ib_logfile1 dump/
+   75  ls
+   76  cd
+   77  sudo mkdir /vol/etc /vol/lib /vol/log
+   78  cd /vol/
+   79  ls
+   80  sudo mv /etc/mysql     /vol/etc/
+   81  ls
+   82  cd etc/
+   83  ls
+   84  cd mysql/
+   85  ls
+   86  sudo mv /etc/my.cnf     /vol/etc/
+   87  sudo mv /etc/my.cnf /vol/etc/
+   88  sudo mv /var/lib/mysql /vol/lib/
+   89  sudo cp /var/lib/mysql /vol/lib/
+   90  sudo cp -R /var/lib/mysql /vol/lib/
+   91  sudo cp /etc/my.cnf /vol/etc/
+   92  cd /vol/
+   93  ls
+   94  cd l
+   95  cd lib/
+   96  ls
+   97  cd mysql/
+   98  ls
+   99  cd tcexam/
+  100  ls
+  101  cd ..
+  102  ls -l
+  103  sudo mv /var/log/mysql /vol/log/
+  104  echo "/vol/etc/mysql /etc/mysql     none bind" | sudo tee -a /etc/fstab
+  105  sudo mount /etc/mysql
+  106  sudo mount /etc/my.cnf
+  107  cd /etc/
+  108  ls -l
+  109  sudo /etc/fstab 
+  110  sudo vim /etc/fstab 
+  111  echo "/vol/etc/mysql /etc/mysql     none bind" | sudo tee -a /etc/fstab
+  112  sudo mount /etc/mysql
+  113  echo "/vol/etc/my.cnf /etc/my.cnf     none bind" | sudo tee -a /etc/fstab
+  114  sudo mount /etc/my.cnf
+  115  sudo vim /etc/fstab 
+  116  echo "/vol/lib/mysql /var/lib/mysql none bind" | sudo tee -a /etc/fstab
+  117  sudo mount /var/lib/mysql
+  118  echo "/vol/log/mysql /var/log/mysql none bind" | sudo tee -a /etc/fstab
+  119  sudo mount /var/log/mysql
+  120  mysql -uroot -p -e 'SHOW VARIABLES WHERE Variable_Name LIKE "%dir"'
+  121  sudo service mysqld start
+  122  ls -larth
+  123  sudo service mysqld stop
+  124  sudo service mysqld start
+  125  mysql -uroot -p -e 'SHOW VARIABLES WHERE Variable_Name LIKE "%dir"'
+  126  cd /var/lib/
+  127  ls -larth
+  128  cd mysql/
+  129  ls
+  130  ls -l
+  131  ls -larth
+  132  mysql -u root -p
+  133  df -h
+  134  ip a
+  135  vim /etc/my.cnf 
+  136  df -h
+  137  ls -larth /etc/
+  138  ip a
+  139  hostname
+  140  ping 172.31.13.14
+  141  ps -elf
+  142  watch -n1 ps -elf
+  143  watch -n1 ps -elf | tail -f
+  144  sudo yum install keepalived
+  145  sudo yum install haproxy
+  146  vim /etc/keepalived/keepalived.conf 
+  147  sudo cp /etc/keepalived/keepalived.conf /etc/keepalived/keepalived.conf.original
+  148  vim /etc/keepalived/keepalived.conf 
+  149  sudo vim /etc/keepalived/keepalived.conf 
+  150  sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.original
+  151  sudo vim /etc/keepalived/keepalived.conf 
+  152  sudo vim /etc/haproxy/haproxy.cfg
+  153  sudo vim /etc/keepalived/keepalived.conf 
+  154  sudo /etc/init.d/keepalived start
+  155  ip a
+  156  sudo vim /etc/keepalived/keepalived.conf 
+  157  sudo /etc/init.d/keepalived start
+  158  sudo /etc/init.d/keepalived restart
+  159  ip a
+  160  df -h
+  161  mysql -uroot -p -e 'SHOW VARIABLES WHERE Variable_Name LIKE "%dir"'
+  162  chmod 644 /etc/my.cnf
+  163  sudo chmod 644 /etc/my.cnf
+  164  mysql -uroot -p -e 'SHOW VARIABLES WHERE Variable_Name LIKE "%dir"'
+  165  cd /var/lib/
+  166  ls -larth
+  167  mysql -uroot -p -e 'SHOW VARIABLES WHERE Variable_Name LIKE "%dir"'
+  168  sudo service mysqld stop 
+  169  clear
+  170  cd
+  171  sudo rm -rf /vol/
+  172  ls
+  173  cd /vol/
+  174  ls
+  175  cd dump/
+  176  ls
+  177  cd /etc/
+  178  ls
+  179  cd 
+  180  cd /vol/
+  181  ls
+  182  cd etc/
+  183  ls
+  184  sudo vim my.cnf 
+  185  cd
+  186  cd  /etc/mysql
+  187  cd etc
+  188  cd /etc/
+  189  ls
+  190  sudo mv /etc/mysql     /vol/etc/
+  191  sudo mv /etc/my.cnf    /vol/etc/
+  192  sudo mv /var/lib/mysql /vol/lib/
+  193  lsof /var/lib/mysql/
+  194  lsof /var/lib/
+  195  df -h
+  196  exit
+  197  clear
+  198  ls
+  199  cd /vol/
+  200  ls
+  201  cd
+  202  ls
+  203  cd /vol/
+  204  ls
+  205  cd
+  206  umount -d /vol
+  207  sudo umount -d /vol
+  208  df -h
+  209  sudo umount -d /dev/xvdf 
+  210  df -h
+  211  sudo umount -d /dev/xvdf 
+  212  df -h
+  213  clear
+  214  exit
+  215  df -h
+  216  ls
+  217  df -h
+  218  grep -q xfs /proc/filesystems || sudo modprobe xfs
+  219  sudo mkfs.xfs /dev/sdh
+  220  lsblk
+  221  ls
+  222  df -h
+  223  sudo sevice mysqld stop
+  224  sudo service mysqld stop
+  225  clear
+  226  df -h
+  227  clear
+  228  lsblk
+  229  sudo file -s /dev/xvdf
+  230  lsblk
+  231  mysql -uroot -p
+  232  sudo service mysqld start
+  233  cd /var/lib/
+  234  ls -l
+  235  cd mysql/
+  236  ls
+  237  sudo yum -y remove mysql-server
+  238  sudo service mysqld start
+  239  sudo yum install mysql55-server
+  240  sudo service mysqld start
+  241  chown mysql:mysql -R /var/lib/mysql
+  242  sudo chown mysql:mysql -R /var/lib/mysql
+  243  chown mysql:mysql -R /var/lib/mysql
+  244  sudo service mysqld start
+  245  df -h
+  246  exit
+  247  df -h
+  248  sudo vim /etc/fstab 
+  249  df h
+  250  clea
+  251  clear
+  252  df -h
+  253  ip a
+  254  sudo vim /etc/hosts
+  255  ip a
+  256  df -h
+  257  sudo yum update -y
+  258  sudo yum install -y httpd24 php56 mysql55-server php56-mysqlnd
+  259  sudo service httpd start
+  260  sudo chkconfig httpd on
+  261  chkconfig --list httpd
+  262  lsblk
+  263  lssudo file -s /dev/xvdf
+  264  sudo file -s /dev/xvdf
+  265  sudo mkdir /vol
+  266  ls
+  267  df -h
+  268  sudo mount /dev/xvdf /vol
+  269  df -h
+  270  sudo cp /etc/fstab /etc/fstab.orig
+  271  sudo vim /etc/fstab
+  272  sudo mount -a
+  273  df -h
+  274  cd /vol/
+  275  ls
+  276  sudo mkdir /vol/etc /vol/lib /vol/log
+  277  ls
+  278  echo "/vol/etc/my.cnf /etc/my.cnf     none bind" | sudo tee -a /etc/fstab
+  279  sudo mount /etc/my.cnf
+  280  echo "/vol/lib/mysql /var/lib/mysql none bind" | sudo tee -a /etc/fstab
+  281  sudo mount /var/lib/mysql
+  282  cd lib/
+  283  ls
+  284  sudo mv /var/lib/mysql /vol/lib/
+  285  ls
+  286  sudo mount /var/lib/mysql
+  287  sudo mkdir /var/lib/mysql
+  288  sudo mount /var/lib/mysql
+  289  echo "/vol/log/mysql /var/log/mysql none bind" | sudo tee -a /etc/fstab
+  290  sudo mount /var/log/mysql
+  291  sudo mv /var/log/mysql /vol/log/
+  292  sudo mkdir /var/log/mysql
+  293  sudo mv /var/log/mysql /vol/log/
+  294  sudo mkdir /var/log/mysql
+  295  sudo mount /var/log/mysql
+  296  cd /var/log/
+  297  cd ..
+  298  cd lib/
+  299  ls -larth
+  300  sudo vim /etc/fstab
+  301  cd /etc/
+  302  ls
+  303  cd /vol/
+  304  ls
+  305  cd lib/mysql/
+  306  ls
+  307  mysql -u root -p
+  308  sudo service mysqld start
+  309  mysql -u root -p
+  310  cd /vol/lib/mysql/
+  311  ls
+  312  ip a
+  313  sudo vim /etc/yum.repos.d/mongodb-org-3.0.repo
+  314  sudo yum repo
+  315  sudo yum update
+  316  sudo yum install -y mongodb-org
+  317  vim /var/log/mongodb
+  318  sudo vim /var/log/mongodb/mongod.log 
+  319  vim /etc/mongod.conf
+  320  sudo service mongod start
+  321  sudo tail -f /var/log/mongodb/mongod.log 
+  322  sudo chkconfig mongod on
+  323  mongo
+  324  ip a
+  325  ls
+  326  sudo /etc/init.d/mongod status
+  327  sudo /etc/init.d/apache2 status
+  328  sudo /etc/init.d/apache status
+  329  sudo yum update -y
+  330  sudo /etc/init.d/mysqld status
+  331  sudo /etc/init.d/httpd status
+  332  df- h
+  333  df -h
+  334  cd /var/www/
+  335  ls
+  336  cd html/
+  337  ls
+  338  ip a
+  339  sudo /etc/init.d/httpd status
+  340  cd /var/www/
+  341  ls
+  342  cd html/
+  343  ls
+  344  mkdir raudra
+  345  mv * raudra/.
+  346  ls
+  347  ls raudra/
+  348  sudo vim /etc/yum.repos.d/mongodb-org-3.0.repo
+  349  ip a
+  350  sudo yum install -y mongodb-org
+  351  sudo /etc/init.d/mongod status
+  352  ls
+  353  git clone https://github.com/sskrishna/Raudra_Forum.git
+  354  yum install git
+  355  sudo yum install git
+  356  git clone https://github.com/sskrishna/Raudra_Forum.git
+  357  ls
+  358  cd Raudra_Forum/
+  359  ls
+  360  cd ../
+  361  ls
+  362  echo "<?php phpinfo(); ?>" > /var/www/html/info.php
+  363  ls
+  364  cat info.php 
+  365  vim /etc/httpd/conf/httpd.conf 
+  366  sudo vim /etc/httpd/conf/httpd.conf 
+  367  cd Raudra_Forum/
+  368  ls
+  369  cd www/
+  370  ls
+  371  cd ../../
+  372  sudo vim /etc/httpd/conf/httpd.conf 
+  373  sudo /etc/init.d/httpd restart
+  374  ls /var/log/httpd/
+  375  sudo ls /var/log/httpd/
+  376  sudo ls /var/log/httpd/error_log
+  377  sudo vim /var/log/httpd/error_log
+  378  sudo vim Raudra_Forum/lampcms_prerequisites.sh 
+  379  apt-cache search
+  380  yum install php-gd
+  381  sudo yum install php-gd
+  382  sudo yum install php-common php-gd
+  383  sudo yum install php7-common php7-gd
+  384  php -V
+  385  php -v
+  386  sudo yum install libapache2-mod-php5 php5-mcrypt libpcre3 libpcre3-dev
+  387  sudo yum install libapache2-mod-php php-mcrypt libpcre3 libpcre3-dev
+  388  sudo yum install php-mbstring php-bcmath php-imap php-gd
+  389  php -v
+  390  rpm -Va --nofiles --nodigest
+  391  sudo yum install php-mbstring php-bcmath php-imap php-gd
+  392  rpm -Va --nofiles --nodigest
+  393  rpm -Va --nofiles --nodigest php5-mcrypt
+  394  rpm -Va --nofiles --nodigest
+  395  sudo yum install php-mbstring php-bcmath php-imap php-gd
+  396  sudo yum install php-mbstring 
+  397  sudo yum install php-mbstring rpm -Va --nofiles --nodigest
+  398  sudo yum install php7-mbstring 
+  399  sudo yum install php56-mbstring 
+  400  sudo yum install libapache2-mod-php php56-mcrypt libpcre3 libpcre3-dev
+  401  sudo yum install libapache2-mod-php56 php56-mcrypt libpcre3 libpcre3-dev
+  402  sudo yum install libapache2-mod-php php56-mcrypt libpcre3 libpcre3-dev
+  403  sudo yum install php56-cgi php56-curl php56-gd php56-apcu php56-oauth php56-dev php56-tidy php56-mongo
+  404  sudo vim /var/log/httpd/error_log
+  405  sudo /etc/init.d/httpd restart
+  406  sudo tail -f /var/log/httpd/error_log
+  407  ls
+  408  sudo yum install php56-mongo
+  409  sudo yum install php5-mongo
+  410  sudo yum install php-mongo
+  411  sudo yum install php7-mongo
+  412  pwd
+  413  cd /var/www/html/
+  414  ls
+  415  pwd
+  416  cd 
+  417  tar -xvf mongo-1.6.14.tgz o
+  418  tar -xvf mongo-1.6.14.tgz 
+  419  ls
+  420  cd mongo-1.6.14
+  421  ls
+  422  sudo yum install php-devel
+  423  sudo yum install php-mongo
+  424  sudo yum install php56-devel
+  425  sudo pecl install mongo
+  426  sudo yum install -y php56-pdo
+  427  sudo yum install -y php56
+  428  sudo yum install -y php56-mongo
+  429  sudo pecl install mongo
+  430  wget http://pear.php.net/go-pear.phar
+  431  cd
+  432  wget http://pear.php.net/go-pear.phar
+  433  php go-pear.phar
+  434  sudo pecl install mongo
+  435  sudo php install php56-devel
+  436  sudo yum install php56-devel
+  437  yum update
+  438  sudo yum update
+  439  sudo  yum install php-pear
+  440  sudo pecl install mongo
+  441  sudo  yum install php-mongo
+  442  sudo  yum install php7-mongo
+  443  sudo  yum install php7.1-mongo
+  444  sudo  yum install php5-mongo
+  445  sudo  yum install php5.6-mongo
+  446  sudo  yum install php55-mongo
+  447  sudo pecl install mongo
+  448  sudo yum install pkg-config
+  449  sudo yum install autoconf g++ make openssl libssl-dev libcurl4-openssl-dev pkg-config libsasl2-dev libpcre3-dev
+  450  yum install openssl-devel
+  451  sudo yum install openssl-devel
+  452  sudo pecl install mongo
+  453  cd mongo-1.6.14
+  454  ls
+  455  php_info
+  456  php_info() mongo
+  457  ls
+  458  vim README.md 
+  459  phpize
+  460      ./configure
+  461      make
+  462      sudo make install
+  463  ls
+  464  phpize
+  465  ./configure
+  466  gcc
+  467  sudo yum install gcc
+  468  ./configure
+  469  make
+  470  vim README.md 
+  471  sudo make install 
+  472  vim README.md 
+  473  locate php.ini
+  474  grep -nri php.ini /
+  475  sudo grep -nri php.ini /*
+  476  find php.ino
+  477  find php.ini
+  478  find php.ini ./*
+  479  find php.ini ./* | grep "php.ini"
+  480  ls
+  481  cd 
+  482  man find
+  483  find -name php.ini ./* | grep "php.ini"
+  484  find -name "php.ini"  | grep "php.ini"
+  485  find -name "db.h"
+  486  cd /
+  487  pwd
+  488  find -name "php.ini"  | grep "php.ini"
+  489  cd
+  490  sudo vim /etc/php.ini 
+  491  sudo /etc/init.d/httpd restart
+  492  sudo yum install php56-apc
+  493  history
+  494  sudo yum install php56-apc
+  495  sudo yum install -y pcre-devel
+  496  wget http://pecl.php.net/get/APC
+  497  tar -xzf APC
+  498  cd APC-3.1.10
+  499  ls
+  500  cd APC-3.1.13/
+  501  phpize
+  502  ./configure --enable-apc --enable-apc-mmap    --with-apxs --with-php-config=/usr/bin/php-config
+  503  make
+  504  ./config
+  505  ./configure 
+  506  make
+  507  vim apc_cache.c +818
+  508  grep -nri "IS_CONSTANT_INDEX" ./*
+  509  grep -nri "IS_CONSTANT_ARRAY" ./*
+  510  grep -nri "IS_CONSTANT_AST" ./*
+  511  sudo pecl install apcu-beta
+  512  cd
+  513  ls
+  514  cd /var/www/
+  515  ls
+  516  cd 
+  517  cd /var/www/html/Raudra_Forum/config/\!config.ini 
+  518  cd /var/www/html/Raudra_Forum/
+  519  vim config/\!config.ini 
+  520  ps -elf | grep mongo
+  521  netstat -elf | grep mongo
+  522  netstat -tulanp | grep mongo
+  523  sudo netstat -tulanp | grep mongo
+  524  ipa 
+  525  ip a
+  526  vim config/\!config.ini 
+  527  sudo vim /var/log/httpd/error_log
+  528  vim config/\!config.ini 
+  529  sudo vim /var/log/httpd/error_log
+  530  sudo /etc/init.d/httpd restart
+  531  vim config/\!config.ini 
+  532  vim lib/Lampcms/Log.php 
+  533  sudo vim lib/Lampcms/Log.php 
+  534  cd ../
+  535  ls
+  536  chmod -R 777 Raudra_Forum
+  537  cd Raudra_Forum/
+  538  sudo /etc/init.d/mongod status
+  539  sudo /etc/init.d/mongod restart
+  540  sudo vim /etc/mongod.conf 
+  541  sudo /etc/init.d/mongod restart
+  542  mong -v
+  543  mong -V
+  544  mongo -V
+  545  mongo -v
+  546  mongo --version
+  547  mongod --version
+  548  php --ri mongo | grep Version
+  549  cd 
+  550  ls
+  551  cd mongo-1.6.14
+  552  ls
+  553  cd
+  554  ls
+  555  sudo pecl install -f mongo-1.4.5
+  556  php --ri mongo | grep Version
+  557  sudo /etc/init.d/httpd restart
+  558  cd /var/www/html/
+  559  ls
+  560  cd Raudra_Forum/
+  561  ls
+  562  vim config/\!config.ini 
+  563  vim lib/Lampcms/HtmlSafe.php
+  564  mysql
+  565  mysql -uroot -p
+  566  mysql -uroot -praudra
+  567  vim config/\!config.ini 
+  568  mysql -uroot -praudra
+  569  ls
+  570  pwd
+  571  cd
+  572  ls
+  573  history > installation_history.txt
+  574  vim installation_history.txt 
+  575  df -h
+  576  ls -larth /etc/
+  577  ls /vol/
+  578  cd /vol/
+  579  cd lib/
+  580  ls
+  581  cd mysql/
+  582  ls
+  583  cd
+  584  ls -larth /var/lib/
+  585  ls -larth /var/lib/mysql/
+  586  ls
+  587  cd /var/lib/
+  588  ls -larth
+  589  pwd
+  590  cd
+  591  cd /vol/var/lib/
+  592  cd /vol/lib/mysql/
+  593  cd
+  594  ls -larth /vol/lib/mysql/
+  595  ls -larth /vol/lib
+  596  sudo ls -larth /vol/lib
+  597  sudo vim /etc/fstab
+  598  vim /etc/mongod.conf 
+  599  sudo vim /etc/fstab
+  600  vim /etc/mongod.conf 
+  601  sudo vim /etc/fstab
+  602  mkdir -p /vol/log/mongodb
+  603  sudo mkdir -p /vol/log/mongodb
+  604  sudo vim /etc/fstab
+  605  sudo mkdir -p /vol/lib/mongo
+  606  sudo vim /etc/fstab
+  607  sudo cat /etc/fstab
+  608  ls -larth /var/lib/mongo
+  609  ls -larth /vol/lib/mongo
+  610  sudo /etc/init.d/mongod restart
+  611  ls -larth /vol/lib/mongo
+  612  sudo /etc/mongod.conf 
+  613  sudo vim /etc/mongod.conf 
+  614  sudo cat /etc/fstab
+  615  sudo vim /etc/fstab
+  616  sudo mv /var/lib/mongo/* /vol/lib/mongo/.
+  617  sudo ls /var/lib/mongo/
+  618  sudo ls /vol/lib/mongo/
+  619  netstat -tulanp | grep mongo
+  620  sudo netstat -tulanp | grep mongo
+  621  sudo /etc/init.d/mongod restart
+  622  sudo mv /var/log/mongodb/* /vol/log/mongodb/.
+  623  chmod 777 -R /vol/log/mongodb/.
+  624  sudo chmod 777 -R /vol
+  625  sudo /etc/init.d/mongod restart
+  626  sudo netstat -tulanp | grep mongo
+  627  cd /var/www/html/Raudra_Forum/
+  628  vim config/\!config.ini 
+  629  sudo /etc/init.d/httpd restart
+  630  sudo /etc/init.d/mongod restart
+  631  sudo /etc/init.d/mongod status
+  632  ls -larth /vol/lib/mongo/
+  633  ls -larth /var/lib/mongo/
+  634  git status
+  635  git add --all
+  636  git commit -m "minimal changes before going production."
+  637  git push
+  638  ls
+  639  ls www/w/img/u4/
+  640  ls /vol
+  641  pwd
+  642  #ln -l "/var/www/html/Raudra_Forum/www/w/img" ""
+  643  ls /vol/
+  644  ls /vol/lib/
+  645  #ln -l "/var/www/html/Raudra_Forum/www/w/img" "/vol/lib/img"
+  646  mkdir -p /vol/lib/img
+  647  sudo chmod 777 -R /vol
+  648  ln -l "/var/www/html/Raudra_Forum/www/w/img" "/vol/lib/img"
+  649  ln -s "/var/www/html/Raudra_Forum/www/w/img" "/vol/lib/img"
+  650  ls -larth /vol/lib/img
+  651  history > installation_history.txt
