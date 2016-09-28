@@ -66,7 +66,7 @@ class tplToptabs extends Lampcms\Template\Fast
                         <li class="ttab%2$s"><a id="tab-un" href="{_WEB_ROOT_}/{_unanswered_}/">%6$s</a></li>
                         <li class="ttab%3$s"><a id="tab-t" href="{_WEB_ROOT_}/{_viewqtags_}/">%7$s</a></li>
                         <li class="ttab%10$s"><a id="tab-m" href="{_WEB_ROOT_}/{_users_}/">%11$s</a></li>
-                        <li class="ttab%4$s"><a id="tab-ask" href="{_WEB_ROOT_}/{_askform_}/">%8$s</a></li>
+                        <li class="ttab%4$s"><a id="tab-ask" href="{_WEB_ROOT_}/{_askform_}/">%</a></li>
                         <li class="tsearch">%9$s</li>
                     </ul>
                 </div>';

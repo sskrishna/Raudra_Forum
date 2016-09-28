@@ -6877,7 +6877,7 @@ h2 {
 .dheader {
     width: 100%;
     background: #434C56;
-    padding-top: 10px;
+    padding-top: 2px;
     border-bottom: 2px solid #DADEE6;
     /*background: #505759;
 	*/
@@ -7134,6 +7134,7 @@ div.uwelcome {
     background-color: #505759;
     background: #505759;
     padding-bottom: 2px;
+    float: right;
 }
 
 #toplogin td {
@@ -7188,11 +7189,11 @@ a#asignup {
     border-top-right-radius: 3px 3px;
     border-bottom-right-radius: 3px 3px;
     border-bottom-left-radius: 3px 3px;
-    background-color: #19558D;
+    background-color: #505759;
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000FF', endColorstr='#19558D')";
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = "#0000FF", endColorstr = "#19558D" );
-    background: -webkit-gradient(linear, left top, left bottom, from(#0000FF), to(#19558D));
-    background: -moz-linear-gradient(top, #0000FF, #19558D);
+    background: -webkit-gradient(linear, left 505759top, left bottom, from(#), to(#505759));
+    background: -moz-linear-gradient(top, #505759, #505759);
 }
 
 #socialbtns span, #socialbtns img {
@@ -7200,8 +7201,8 @@ a#asignup {
 }
 
 #asignup:hover {
-    background-color: #19558D;
-    background: #19558D;
+    background-color: #8d171f;
+    background: #FF9900;
     /*-ms-filter:
 		"progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6bc00', endColorstr='#7b9f00')";
 	filter: progid :                       
@@ -7310,7 +7311,7 @@ div#layout1 div#qview-body {
 }
 
 .icn {
-    background-image: url('../images/tango-large.png');
+    background-image: url('../images/ravi.png');
     background-repeat: no-repeat;
     height: 23px;
     width: 23px;
@@ -7341,7 +7342,7 @@ div#layout1 div#qview-body {
 }
 
 .home {
-    background-position: -298px -120px;
+    /*background-position: -298px -120px;*/
 }
 
 .globe {
@@ -7548,9 +7549,9 @@ div.tgs a {
 }
 
 .unans {
-    background: #ffebe8;
+    /*background: #ffebe8;
     background-color: #ffebe8;
-    border: 1px solid #dd3c10;
+    border: 1px solid #dd3c10;*/
     color: #333333;
 }
 
@@ -7570,8 +7571,8 @@ div.vws {
 }
 
 .answrd {
-    background-color: #fff9d7;
-    border: 1px solid #e2c822;
+    /*background-color: #fff9d7;*/
+    /*border: 1px solid #e2c822;*/
     color: #333333;
 }
 
@@ -7783,14 +7784,14 @@ li.tsearch {
 #btnsearch {
     display: block;
     float: left;
-    border-left: 1px solid #555B61;
-    border-bottom: 1px solid #5E6D7A;
-    border-top: 1px solid #5E6D7A;
-    border-right: 1px solid #5E6D7A;
+    border-left: 1px solid #ff9900;
+    border-bottom: 1px solid #ff9900;
+    border-top: 1px solid #ff9900;
+    border-right: 1px solid #ff9900;
     padding: 3px;
     padding-right: 10px;
     padding-left: 10px;
-    color: #333;
+    color: #ffffff;
     /*height: 27px;
 	*/
     font-size: 120%;
@@ -7804,15 +7805,15 @@ li.tsearch {
     -webkit-border-bottom-left-radius: 0px;
     -moz-border-radius-topleft: 0px;
     -moz-border-radius-bottomleft: 0px;
-    background: -moz-linear-gradient(top, #A7BBCC, #879BAD);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#A7BBCC', endColorstr='#879BAD')";
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = "#A7BBCC", endColorstr = "#879BAD" );
-    background: -webkit-gradient(linear, left top, left bottom, from(#A7BBCC), to(#879BAD));
-    background: -moz-linear-gradient(top, #A7BBCC, #879BAD);
+    background: -moz-linear-gradient(top, #ff9900, #ff9900);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9900', endColorstr='#ff9900')";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = "#ff9900", endColorstr = "#ff9900" );
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff9900), to(#ff9900));
+    background: -moz-linear-gradient(top, #ff9900, #ff9900);
 }
 
 li.ttab {
-    background-color: #3B5998;
+    background-color: #505759;
 }
 
 li.ttab_current, li.ttab:hover {
@@ -8530,6 +8531,7 @@ td.td_question, td.td_answer {
 .fr {
     position: relative;
     float: right;
+    display: none;
 }
 
 .a2 {
@@ -9795,4 +9797,44 @@ div.onesub {
 */
 .istatus2 {
     background-color: #C0C0C0 !important;
+}
+
+input.dologin {
+    /* vertical-align: middle; */
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 1px solid #BBB;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    /* text-shadow: 0 1px #BBB; */
+    border-top-left-radius: 3px 3px;
+    border-top-right-radius: 3px 3px;
+    border-bottom-right-radius: 3px 3px;
+    border-bottom-left-radius: 3px 3px;
+    background-color: #505759;
+    margin-top: 3px;
+}
+.fl.w40 {
+    height: 62px;
+}
+img#raudralogo {
+    height: 70%;
+    padding-top: 7px;
+}
+.gatexcel {
+    float: right;
+    padding-top: 10px;
+    padding-left: 6px;
+    font-size: 32px;
+    font-family: serif;
+    color: silver;
 }

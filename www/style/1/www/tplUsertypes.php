@@ -78,7 +78,8 @@ class tplUsertypes extends Lampcms\Template\Fast
 	<div id="qtypes" class="cb fl reveal hidden">
 		<a id="rep" href="{_WEB_ROOT_}/{_users_}/{_SORT_REPUTATION_}/" class="ajax sortans qtype%1$s ttt2" title="%3$s"><span rel="in">%2$s</span></a>
 		<a id="new" href="{_WEB_ROOT_}/{_users_}/{_SORT_NEW_}/" class="ajax sortans qtype%4$s ttt2" title="%6$s"><span rel="in">%5$s</span></a>
-		<a id="old" href="{_WEB_ROOT_}/{_users_}/{_SORT_OLDEST_}/" class="ajax sortans qtype%7$s ttt2" title="%9$s"><span rel="in">%8$s</span></a>
+		<a id="old" href="{_WEB_ROOT_}/{_users_}/{_SORT_OLDEST_}/" class="ajax sortans qtype%7$s ttt2" title="%9$s"><span rel="in">%
+		</span></a>
 		<a id="seen" href="{_WEB_ROOT_}/{_users_}/{_SORT_ACTIVE_}/" class="ajax sortans qtype%10$s ttt2" title="%12$s"><span rel="in">%11$s</span></a>
 	</div>';
 }

@@ -75,8 +75,11 @@ class tplBoxrecent extends Lampcms\Template\Fast
         'tags' => '');
 
     protected static $tpl = '
+	
 	<div class="box fl cb" id="%2$s">
+        <img src="https://msdnshared.blob.core.windows.net/media/2016/07/SSG-Banner.jpg" alt="">
     	<div class="title">%1$s</div>
-    		%3$s	
+    	    		%3$s	
+    	    		
 	</div>';
 }

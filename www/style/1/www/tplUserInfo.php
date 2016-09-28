@@ -96,7 +96,7 @@ class tplUserInfo extends Lampcms\Template\Fast
 <div class="yui3-u-1-2" id="profileMiddle">
 <table class="user_stuff">
 	<tr>
-		<th colspan="2">%28$s</th>
+		<th colspan="2">%2</th>
 	</tr>
 	<tr>
 		<td class="ar">%29$s</td>
@@ -111,7 +111,7 @@ class tplUserInfo extends Lampcms\Template\Fast
 		<td>%26$s</td>
 	</tr>
 	<tr>
-		<td class="ar">%8$s</td>
+		<td class="ar">%</td>
 		<td>%7$s</td>
 	</tr>
 	<tr>
@@ -131,7 +131,7 @@ class tplUserInfo extends Lampcms\Template\Fast
 		<td>%15$s</td>
 	</tr>
 	<tr>
-		<td class="ar">%35$s</td>
+		<td class="ar">%</td>
 		<td>%34$s</td>
 	</tr>
 	<tr>
@@ -143,7 +143,7 @@ class tplUserInfo extends Lampcms\Template\Fast
 		<td>%32$s</td>
 	</tr>
 	<tr>
-		<td class="ar">%18$s</td>
+		<td class="ar">%1</td>
 		<td>%17$s</td>
 	</tr>
 	<tr>

@@ -59,7 +59,7 @@ class tplUanswers extends \Lampcms\Template\Fast
 	       <div class="sqr1 ansvotes%4$s">
 	          %7$s
 	          <br>
-	          vote%8$s
+	          vote%
 	       </div>
 	    </div>
     <div class="smmry2">

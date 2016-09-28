@@ -76,6 +76,7 @@ class tplQuestionInfo extends Lampcms\Template\Fast
 
 
     protected static $tpl = '
+
 	<div class="box pl10" id="question_details">
 		%1$s
 		<div class="box fl cb qinfo">

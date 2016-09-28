@@ -131,19 +131,28 @@ class tplMain extends Lampcms\Template\Fast
 <body class="yui-skin-sam" id="doc_body">
 %14$s
 <div id="hd" class="dheader">
-	 <div id="loginHead" class="doc3">
-	 	<div class="fl w40">
-	 	<div class="icn home"></div>
-	 		<a href="{_WEB_ROOT_}/">@@Home@@</a>
+    <div id="loginHead" class="doc3">
+    	 	<div class="fl w40">
+    	 	<img src="/style/1/images/ravi.png" alt="" id="raudralogo">
+	 	<!--<div class="icn home">	 	
+</div>-->
+	 		<!--<a href="{_WEB_ROOT_}/">@@GatExcel@@</a>-->
+	 		<div class="gatexcel"><a href="{_WEB_ROOT_}/" style="text-decoration:blink;">GATEXCEL</a></div>
 	 	</div>
 	 	%16$s
 	 </div>
 </div>
+
 <div id="doc3" class="gbox %15$s">
+<!--top banner add starts from here-->
+<div class="topbanner">
+    <img src="https://0.s3.envato.com/files/198098874/preview/728x90.png" alt="">
+</div>
+<!--top banner add end till here-->
 	%24$s
 	<div class="yui3-g" id="layout%32$s">
 <div class="yui3-u-3-4" id="qview-main">			
- 	<div class="qheader">%30$s</div>
+ 	<div class="qheader">%30$s </div>
     <div id="qview-body">%17$s</div>
 </div>
 	<div class="yui3-u-1-4" id="nav">
@@ -160,11 +169,14 @@ class tplMain extends Lampcms\Template\Fast
 	</div>
 
 </div>
+<!--bottom banner add starts from here-->
+<div class="topbanner">
+    <img src="https://0.s3.envato.com/files/198098874/preview/728x90.png" alt="">
+</div>
+<!--bottom banner add ends till here-->
 <hr class="line1">
 	<div id="ft" class="footer">%19$s
-		<div id="ccwiki-copyright">@@Powered by@@ <a href="http://www.lampcms.com">LampCMS</a> Source code available at <a href="https://github.com/snytkine/LampCMS">github</a>
-		<br>Questions and Answers are licensed under <a href="http://creativecommons.org/licenses/by-sa/2.5/" rel="nofollow" target="_blank">cc-wiki</a> license.<br> 
-		
+		<div id="ccwiki-copyright">@@Powered by@@ LAMP CMS 
 		</div>
 		%41$s
 		<div class="cb fl timer ajax fbsignup">{timer}</div>
@@ -189,7 +201,7 @@ class tplMain extends Lampcms\Template\Fast
 <div id="lastdiv" class="delegate"></div>
 %13$s
 %21$s
-<script type="text/javascript" src="%35$s"></script>
+<script type="text/javascript" src="%"></script>
 
 %22$s
 %45$s

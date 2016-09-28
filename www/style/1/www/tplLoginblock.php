@@ -54,10 +54,11 @@ class tplLoginblock extends Lampcms\Template\Fast
 	<form accept-charset="utf-8" action="{_WEB_ROOT_}/" method="post" enctype="application/x-www-form-urlencoded" name="mLogin" id="mLogin">
 	<input name="a" type="hidden" value="login">
 	<table class="login_block">
+	
 	<tr>
 	<th colspan="2">%1$s</th>
 	</tr>
-	<tr>
+	<tr>    
 	<td colspan="2">@@Username@@<br>
 	<input type="text" class="inlogin" name="login" id="login" size="15" accesskey="u" tabindex="41">
 	</td></tr>

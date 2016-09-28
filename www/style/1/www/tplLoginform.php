@@ -59,31 +59,50 @@ class tplLoginform extends Lampcms\Template\Fast
 		<div class="titleWarning" id="titleWarning">%1$s</div>
 	</td>
 </tr>
+
+<!--<tr>
+	<td><label for="log">@@Username@@</label></td>
+    <td><label for="pwd">@@Password@@</label></td>
+</tr>-->
+
 <tr>
-	<td>@@Username@@</td>
-	<td>
-		<input type="text" class="inlogin" name="login" id="login" size="15" accesskey="u" tabindex="1">
+    <td>
+		<input type="text" class="inlogin" name="login" id="log" size="15" accesskey="u" tabindex="1" placeholder="username">
 	</td>
-	<td align="left" nowrap="nowrap"><label for="chkRemember">
-		<input name="chkRemember" type="checkbox" value="3" id="chkRemember">@@Remember@@&nbsp;</label>
-	</td>
-</tr>
-<tr>
-	<td><label for="pwd">@@Password@@</label></td>
 	<td>
-	  <input type="password" name="pwd" class="inpwd" id="pwd" size="10" tabindex="4">
+	  <input type="password" name="pwd" class="inpwd" id="pwd" size="10" tabindex="4" placeholder="password">
 	</td>
     <td align="left"> 
       <input class="dologin" value="@@Log in@@" type="submit">
     </td>
+	<td><div class="fl cb">
+			<div class="fl btnjoin" id="joinus">
+				<a id="asignup" href="{_WEB_ROOT_}/{_register_}/">@@Sign up@@</a>
+			</div>
+	</td>
+
 </tr>
+	<!--<tr><td>&nbsp;</td></tr>-->
 <tr>
-  <td></td>
-  <td colspan="2" align="left" class="tdforgot">
-     <a href="{_WEB_ROOT_}/{_remindpwd_}/" class="forgot">@@Forgot password?@@</a></td>
+    <td align="left" nowrap="nowrap"><label for="chkRemember">
+		<input name="chkRemember" type="checkbox" value="3" id="chkRemember">@@Do Remember@@&nbsp;</label>
+	</td>
+	<td colspan="2" align="left" class="tdforgot">
+     <a href="{_WEB_ROOT_}/{_remindpwd_}/" class="forgot">@@Forgot password?@@</a>
+     </td>
 </tr>
+
+<!--new code added here -->
+<tr>
+	
+</tr>
+<!--delete the new code till here-->
+
 </table>
 </form>
+
+
+
 </div>';
 
 }

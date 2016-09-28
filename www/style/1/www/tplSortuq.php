@@ -87,7 +87,7 @@ class tplSortuq extends Lampcms\Template\Fast
 	<div id="qtypes" class="qtypes cb fl reveal hidden">
 	<a href="{_WEB_ROOT_}/{_userinfotab_}/q/%16$s/{_SORT_RECENT_}/{_PAGER_PREFIX_}1{_PAGER_EXT_}" class="ajax sortans ttt2 qtype%2$s" title="%7$s">%12$s</a>
 	<a href="{_WEB_ROOT_}/{_userinfotab_}/q/%16$s/{_SORT_OLDEST_}/{_PAGER_PREFIX_}1{_PAGER_EXT_}" class="ajax sortans ttt2 qtype%1$s" title="%6$s">%11$s</a>
-	<a href="{_WEB_ROOT_}/{_userinfotab_}/q/%16$s/{_SORT_VOTED_}/{_PAGER_PREFIX_}1{_PAGER_EXT_}" class="ajax sortans ttt2 qtype%3$s" title="%8$s">%13$s</a>
+	<a href="{_WEB_ROOT_}/{_userinfotab_}/q/%16$s/{_SORT_VOTED_}/{_PAGER_PREFIX_}1{_PAGER_EXT_}" class="ajax sortans ttt2 qtype%3$s" title="%">%13$s</a>
 	<a href="{_WEB_ROOT_}/{_userinfotab_}/q/%16$s/{_SORT_UPDATED_}/{_PAGER_PREFIX_}1{_PAGER_EXT_}" class="ajax sortans ttt2 qtype%4$s" title="%9$s">%14$s</a>
 	<a href="{_WEB_ROOT_}/{_userinfotab_}/q/%16$s/{_SORT_VIEWS_}/{_PAGER_PREFIX_}1{_PAGER_EXT_}" class="ajax sortans ttt2 qtype%5$s" title="%10$s">%15$s</a>
 	</div>';

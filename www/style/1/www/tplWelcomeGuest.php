@@ -59,9 +59,9 @@ class tplWelcomeGuest extends \Lampcms\Template\Fast
 
 
     protected static $tpl = '
-	<div class="fl wlcmguest">
+	<!--<div class="fl wlcmguest">
 	 	<div class="fl cb hello">
-	 		@@Welcome to our site!@@
+	 		@@GATEXCEL@@
 	 	</div>
 		<div class="fl cb">
 			<div class="fl btnjoin" id="joinus">
@@ -69,7 +69,7 @@ class tplWelcomeGuest extends \Lampcms\Template\Fast
 			</div>
 			%1$s
 		</div>
-	</div>';
+	</div>-->';
 
 
 }

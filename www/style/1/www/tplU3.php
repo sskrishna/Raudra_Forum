@@ -113,7 +113,7 @@ class tplU3 extends Lampcms\Template\Fast
 		<div class="u4 mt-12">
 			<a href="{_WEB_ROOT_}/{_userinfo_}/%1$s/%5$s">%2$s</a><br>
 		    <span class="reg_time">%7$s<br>%6$s</span><br>
-		    <span class="seen">%8$s<br>%9$s</span>
+		    <span class="seen">%<br>%9$s</span>
 		</div>
 	</div>';
 
