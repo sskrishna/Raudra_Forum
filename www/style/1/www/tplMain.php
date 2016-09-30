@@ -170,6 +170,7 @@ class tplMain extends Lampcms\Template\Fast
 
 </div>
 <!--bottom banner add starts from here-->
+<?php query_posts( \'cat=33\' ); ?>
 <div class="topbanner">
     <img src="https://0.s3.envato.com/files/198098874/preview/728x90.png" alt="">
 </div>

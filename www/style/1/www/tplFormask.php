@@ -93,9 +93,7 @@ class tplFormask extends Lampcms\Template\Simple
             <div class="form_el"> 
                 <textarea id="id_qbody" rows="6" cols="40" class="com_body{com_hand}" name="qbody" {readonly}>{qbody}</textarea>
                 <span class="f_err fl cb" id="qbody_e">{qbody_e}</span>
-                <div id="body_preview"></div>
-                <span class="label">{Preview}</span>
-                <div id="tmp_preview"></div>
+                
             </div>
             <!-- // el body -->
             
@@ -116,6 +114,9 @@ class tplFormask extends Lampcms\Template\Simple
             <div class="fl cb socials">
             {socials}
             </div>
+            <div id="body_preview"></div>
+                <span class="label">{Preview}</span>
+                <div id="tmp_preview"></div>
             <div class="form_el">
             	<input id="dostuff" name="my_submit" type="submit" value="{submit}" {disabled} class="btn btn-m">
             </div>

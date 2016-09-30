@@ -112,7 +112,7 @@ class tplQrecent extends Lampcms\Template\Fast
     <div class="smmry istatus%29$s">
         <div class="fl"><a href="{_WEB_ROOT_}/{_viewquestion_}/{_QID_PREFIX_}%1$s/%5$s" class="ql%19$s pri%21$s">%7$s</a></div>
         <div class="fl cb intro">%6$s</div>
-        <div class="fl cb tgs">%9$s</div>
+        <div class="fl cb tgs ">%9$s</div>
         <div class="pstr">
             <div class="usrinfo">
             	<div class="asked"><span rel="in">%20$s </span><span title="%13$s" class="ts" rel="time">%13$s</span>%28$s</div>

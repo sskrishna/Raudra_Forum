@@ -7593,7 +7593,8 @@ div.vws {
 }
 
 #qview-side>div, #recent-tags>div {
-    padding-left: 10px;
+    padding-left: 5px;
+    padding-right: 27px;
 }
 
 .usr_info, .usr_info2, .usr_info3 {
@@ -7681,8 +7682,8 @@ div.vws {
 }
 
 #recent-tags div a {
-    margin-top: 6px;
-    padding: 8px;
+    /*margin-top: 6px;*/
+    /*padding: 8px;*/
     color: #3b5998;
     font-weight: bold;
     text-decoration: none;
@@ -7862,9 +7863,12 @@ div.t2 {
     float: left;
     /*width: 100%;
 	*/
-    width: 166px;
+    /*width: 166px;*/
+    margin: 1px;
+    border-style: groove;
     padding-top: 2px;
     padding-bottom: 2px;
+    background-color: #d8dfea;
 }
 
 .t2 a, .tag1 a, .utag2 a, .gblock .t2 a {
@@ -8072,7 +8076,7 @@ div.tag1 span {
 
 #recent-tags .tags-list div.t2 span {
     position: relative;
-    top: 10px;
+    top: 5px;
     padding: 5px;
     font-weight: bold;
 }
@@ -8086,13 +8090,13 @@ div.tag1 span.ts {
     color: #3b5998;
     font-weight: bold;
     float: left;
-    margin-right: 4px;
+    /*margin-right: 4px;*/
     text-decoration: none;
 }
 
 #qview-body div.qlist div.tag1 a:hover, #recent-tags .tags-list div.t2 a:hover {
-    background-color: #3b5998;
-    color: #ffffff;
+    /*background-color: #3b5998;*/
+    color: #3b5998;
     cursor: pointer;
 }
 
@@ -8119,6 +8123,7 @@ div.tag1 span.ts {
     float: left;
     clear: both;
     margin-top: 18px;
+    margin-bottom: 10px;
 }
 
 .form_el label {
@@ -9796,7 +9801,7 @@ div.onesub {
 * Q/A Div with pending status
 */
 .istatus2 {
-    background-color: #C0C0C0 !important;
+    background-color: #ededed !important;
 }
 
 input.dologin {
@@ -9837,4 +9842,20 @@ img#raudralogo {
     font-size: 32px;
     font-family: serif;
     color: silver;
+}
+.ql.pri {
+    text-decoration: none;
+}
+a.ql.pri1 {
+    text-decoration: none;
+}
+.poptag {
+    float: left;
+    border-style: groove;
+    background-color: #d8dfea;
+}
+.fl.cb.tgs a {
+    background-color: #d8dfea;
+    text-decoration: blink;
+    padding: 5px;
 }
